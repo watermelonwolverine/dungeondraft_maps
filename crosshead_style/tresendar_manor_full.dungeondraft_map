@@ -100,8 +100,8 @@
 		],
 		"editor_state": {
 			"current_level": 2,
-			"camera_position": "Vector2( 3633.64, 1300.63 )",
-			"camera_zoom": 2,
+			"camera_position": "Vector2( 3378.38, 2691.23 )",
+			"camera_zoom": 4,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -245,7 +245,7 @@
 		"format": 3,
 		"width": 32,
 		"height": 20,
-		"next_node_id": "aba",
+		"next_node_id": "ac4",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -265,7 +265,7 @@
 			"0": {
 				"label": "Towers",
 				"environment": {
-					"baked_lighting": true,
+					"baked_lighting": false,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -1390,7 +1390,7 @@
 			"1": {
 				"label": "Roof",
 				"environment": {
-					"baked_lighting": true,
+					"baked_lighting": false,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -4532,6 +4532,18 @@
 						"node_id": "874",
 						"portals": [
 							{
+								"position": "Vector2( 1152, 1152 )",
+								"rotation": -0.785398,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( 0.707107, -0.707107 )",
+								"texture": "res://packs/DZw7eElc/textures/portals/door_wood_11.png",
+								"radius": 128,
+								"wall_id": "874",
+								"wall_distance": 0.5,
+								"closed": true,
+								"node_id": "ac2"
+							},
+							{
 								"position": "Vector2( 1152, 640 )",
 								"rotation": -2.356194,
 								"scale": "Vector2( 1, 1 )",
@@ -4603,6 +4615,18 @@
 								"wall_distance": 5.5,
 								"closed": true,
 								"node_id": "88c"
+							},
+							{
+								"position": "Vector2( 1152, 3968 )",
+								"rotation": 0.785398,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -0.707107, -0.707107 )",
+								"texture": "res://packs/DZw7eElc/textures/portals/door_wood_11.png",
+								"radius": 128,
+								"wall_id": "875",
+								"wall_distance": 7.5,
+								"closed": true,
+								"node_id": "ac3"
 							}
 						]
 					},
@@ -4652,6 +4676,18 @@
 								"wall_distance": 5.5,
 								"closed": true,
 								"node_id": "892"
+							},
+							{
+								"position": "Vector2( 7040, 1152 )",
+								"rotation": -2.356194,
+								"scale": "Vector2( 1, 1 )",
+								"direction": "Vector2( -0.707107, -0.707107 )",
+								"texture": "res://packs/DZw7eElc/textures/portals/door_wood_11.png",
+								"radius": 128,
+								"wall_id": "88f",
+								"wall_distance": 7.5,
+								"closed": true,
+								"node_id": "ac0"
 							}
 						]
 					}
@@ -6122,7 +6158,7 @@
 			"3": {
 				"label": "Manor 1st Floor",
 				"environment": {
-					"baked_lighting": true,
+					"baked_lighting": false,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -9692,7 +9728,7 @@
 			"4": {
 				"label": "Cellar",
 				"environment": {
-					"baked_lighting": true,
+					"baked_lighting": false,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -11280,7 +11316,7 @@
 				"water": {
 					"disable_border": false,
 					"tree": {
-						"ref": -1542152026,
+						"ref": 1467979942,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -11290,7 +11326,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": 1009568574,
+								"ref": -1454417090,
 								"polygon": "PoolVector2Array( 5888, 4096, 5120, 4096, 5120, 3584, 5888, 3584 )",
 								"join": 0,
 								"end": 0,
