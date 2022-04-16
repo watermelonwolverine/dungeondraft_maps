@@ -100,8 +100,8 @@
 		],
 		"editor_state": {
 			"current_level": 2,
-			"camera_position": "Vector2( 3378.38, 2691.23 )",
-			"camera_zoom": 4,
+			"camera_position": "Vector2( 3780.54, 2459.03 )",
+			"camera_zoom": 5.333333,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -215,9 +215,9 @@
 			},
 			"object_library_memory": {
 				"mode": "all",
-				"scroll": 0,
+				"scroll": 118538.320313,
 				"selected": [
-					"res://packs/xjCzavyl/textures/objects/fire_10.png"
+
 				],
 				"search_strictness": 0.69
 			},
@@ -232,9 +232,9 @@
 				"search_strictness": 0.69
 			},
 			"path_library_memory": {
-				"scroll": 2885.934412,
+				"scroll": 0,
 				"selected": [
-					"res://packs/eMSwy6B7/textures/paths/plants.png"
+					"res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png"
 				],
 				"search_strictness": 0.9
 			},
@@ -245,7 +245,7 @@
 		"format": 3,
 		"width": 32,
 		"height": 20,
-		"next_node_id": "ac4",
+		"next_node_id": "b06",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -265,7 +265,7 @@
 			"0": {
 				"label": "Towers",
 				"environment": {
-					"baked_lighting": false,
+					"baked_lighting": true,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -1390,7 +1390,7 @@
 			"1": {
 				"label": "Roof",
 				"environment": {
-					"baked_lighting": false,
+					"baked_lighting": true,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -2299,40 +2299,6 @@
 						"node_id": "8cb"
 					},
 					{
-						"position": "Vector2( 4864, 4352 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, 0, -1024 )",
-						"smoothness": 0,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathLarge25.png",
-						"width": 768,
-						"layer": 900,
-						"fade_in": true,
-						"fade_out": true,
-						"grow": false,
-						"shrink": false,
-						"block_light": false,
-						"loop": false,
-						"node_id": "8ea"
-					},
-					{
-						"position": "Vector2( 3328, 4352 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, 0, -1024 )",
-						"smoothness": 0,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathLarge25.png",
-						"width": 768,
-						"layer": 900,
-						"fade_in": true,
-						"fade_out": true,
-						"grow": false,
-						"shrink": false,
-						"block_light": false,
-						"loop": false,
-						"node_id": "8ec"
-					},
-					{
 						"position": "Vector2( 3328, 768 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
@@ -2404,7 +2370,7 @@
 						"position": "Vector2( 4864, 3328 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, 0, 1024 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, 768 )",
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/DoubleShadowPath/DoubleShadowPathLarge25.png",
 						"width": 768,
@@ -2657,11 +2623,11 @@
 							"position": "Vector2( 0, 0 )",
 							"rotation": 0,
 							"scale": "Vector2( 1, 1 )",
-							"points": "PoolVector2Array( 5632, 4352, 5632, 2560 )",
+							"points": "PoolVector2Array( 5632, 4096, 5632, 2560 )",
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "62d"
+							"node_id": "b03"
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2671,7 +2637,7 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 512,
 							"type": 2,
-							"node_id": "62e"
+							"node_id": "b05"
 						}
 					]
 				},
@@ -3416,30 +3382,6 @@
 						"position": "Vector2( 0, 0 )",
 						"shape_rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"points": "PoolVector2Array( 3328, 2304, 3328, 1536, 3328, 1280, 3072, 1280, 2816, 1024, 2304, 1024, 2048, 1280, 1536, 1280, 1280, 1024, 1024, 1280, 1024, 1536, 1280, 1792, 1792, 1792, 2048, 1536, 2560, 1536, 2816, 1792, 2816, 2304 )",
-						"layer": 100,
-						"color": "ff6d6d6d",
-						"outline": false,
-						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
-						"rotation": 0,
-						"node_id": "58a"
-					},
-					{
-						"position": "Vector2( 0, 0 )",
-						"shape_rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"points": "PoolVector2Array( 2816, 2816, 3328, 2816, 3328, 3840, 3072, 3840, 2816, 4096, 2304, 4096, 2048, 3840, 1536, 3840, 1280, 4096, 1024, 3840, 1024, 3584, 1280, 3328, 1792, 3328, 2048, 3584, 2560, 3584, 2816, 3328 )",
-						"layer": 100,
-						"color": "ff6d6d6d",
-						"outline": false,
-						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
-						"rotation": 0,
-						"node_id": "58b"
-					},
-					{
-						"position": "Vector2( 0, 0 )",
-						"shape_rotation": 0,
-						"scale": "Vector2( 1, 1 )",
 						"points": "PoolVector2Array( 2816, 2304, 7168, 2304, 7168, 2816, 2816, 2816 )",
 						"layer": 100,
 						"color": "ff6d6d6d",
@@ -3603,9 +3545,61 @@
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow100.png",
 						"rotation": 0,
 						"node_id": "7ef"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 3328, 2304, 3328, 1536, 3328, 1280, 3072, 1280, 2816, 1024, 2304, 1024, 2048, 1280, 1536, 1280, 1280, 1024, 1024, 1280, 1024, 1536, 1280, 1792, 1792, 1792, 2048, 1536, 2560, 1536, 2816, 1792, 2816, 2304 )",
+						"layer": 200,
+						"color": "ff6d6d6d",
+						"outline": false,
+						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
+						"rotation": 0,
+						"node_id": "58a"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 2816, 2816, 3328, 2816, 3328, 3840, 3072, 3840, 2816, 4096, 2304, 4096, 2048, 3840, 1536, 3840, 1280, 4096, 1024, 3840, 1024, 3584, 1280, 3328, 1792, 3328, 2048, 3584, 2560, 3584, 2816, 3328 )",
+						"layer": 200,
+						"color": "ff6d6d6d",
+						"outline": false,
+						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
+						"rotation": 0,
+						"node_id": "58b"
 					}
 				],
 				"walls": [
+					{
+						"points": "PoolVector2Array( 2816, 2048, 2816, 1792, 2560, 1536, 2048, 1536, 1792, 1792, 1280, 1792 )",
+						"texture": "res://packs/BYcn0rLD/textures/walls/railingwood2.png",
+						"color": "ffffffff",
+						"loop": false,
+						"type": 1,
+						"joint": 0,
+						"normalize_uv": true,
+						"shadow": false,
+						"node_id": "ad4",
+						"portals": [
+
+						]
+					},
+					{
+						"points": "PoolVector2Array( 1280, 3328, 1792, 3328, 2048, 3584, 2560, 3584, 2816, 3328, 2816, 3072 )",
+						"texture": "res://packs/BYcn0rLD/textures/walls/railingwood2.png",
+						"color": "ffffffff",
+						"loop": false,
+						"type": 1,
+						"joint": 0,
+						"normalize_uv": true,
+						"shadow": false,
+						"node_id": "ad3",
+						"portals": [
+
+						]
+					},
 					{
 						"points": "PoolVector2Array( 4608, 3840, 5120, 4352, 6144, 4352, 6656, 3840 )",
 						"texture": "res://packs/BYcn0rLD/textures/walls/railingwood2.png",
@@ -4079,43 +4073,6 @@
 						"node_id": "57c",
 						"portals": [
 
-						]
-					},
-					{
-						"points": "PoolVector2Array( 1280, 3328, 1792, 3328, 2048, 3584, 2560, 3584, 2816, 3328, 2816, 1792, 2560, 1536, 2048, 1536, 1792, 1792, 1280, 1792 )",
-						"texture": "res://packs/BYcn0rLD/textures/walls/dungeontop.png",
-						"color": "ffffffff",
-						"loop": false,
-						"type": 1,
-						"joint": 0,
-						"normalize_uv": true,
-						"shadow": false,
-						"node_id": "567",
-						"portals": [
-							{
-								"position": "Vector2( 2816, 2688 )",
-								"rotation": -1.570796,
-								"scale": "Vector2( 1, 1 )",
-								"direction": "Vector2( 0, -1 )",
-								"texture": "res://packs/DZw7eElc/textures/portals/door_wood_11.png",
-								"radius": 128,
-								"wall_id": "567",
-								"wall_distance": 4.416667,
-								"closed": true,
-								"node_id": "581"
-							},
-							{
-								"position": "Vector2( 2816, 2432 )",
-								"rotation": 1.570796,
-								"scale": "Vector2( 1, 1 )",
-								"direction": "Vector2( 0, -1 )",
-								"texture": "res://packs/DZw7eElc/textures/portals/door_wood_11.png",
-								"radius": 128,
-								"wall_id": "567",
-								"wall_distance": 4.583333,
-								"closed": true,
-								"node_id": "580"
-							}
 						]
 					},
 					{
@@ -4982,7 +4939,7 @@
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
-						"layer": 100,
+						"layer": 200,
 						"fade_in": false,
 						"fade_out": false,
 						"grow": false,
@@ -4999,7 +4956,7 @@
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
-						"layer": 100,
+						"layer": 200,
 						"fade_in": false,
 						"fade_out": false,
 						"grow": false,
@@ -5046,7 +5003,7 @@
 						"position": "Vector2( 2816, 3328 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( -512, 256, -256, 256, 0, 0, 0, -256, 0, -1280, 0, -1536, -256, -1792, -512, -1792 )",
+						"edit_points": "PoolVector2Array( -512, 256, -256, 256, 0, 0, 0, -256 )",
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
@@ -5097,7 +5054,7 @@
 						"position": "Vector2( 773.437, 1280.45 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, 256, 0, 512, -256, 512, -512, 256, -768, 0, -768, -256, -512, -256, -256 )",
+						"edit_points": "PoolVector2Array( 0, 0, 256, 0, 506.563, -256.45, 506.563, -512.45, 256, -768, 0, -768, -256, -512, -256, -256 )",
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
@@ -5128,10 +5085,10 @@
 						"node_id": "7d4"
 					},
 					{
-						"position": "Vector2( 1260.67, 916.667 )",
+						"position": "Vector2( 1282.64, 768.51 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 28.6377, 71.8433, 21.9711, -148.157, -235.362, -402.823, -492.696, -408.157, -644, -255 )",
+						"edit_points": "PoolVector2Array( 0, 0, -257.333, -254.666, -514.667, -260, -665.971, -106.843 )",
 						"smoothness": 1,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
@@ -5220,7 +5177,7 @@
 						"smoothness": 0.8,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
 						"width": 512,
-						"layer": 100,
+						"layer": 200,
 						"fade_in": false,
 						"fade_out": false,
 						"grow": false,
@@ -5228,40 +5185,6 @@
 						"block_light": false,
 						"loop": false,
 						"node_id": "81e"
-					},
-					{
-						"position": "Vector2( 3328, 1280 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, -256, 0, -512, -256, -768, -256, -1024, -256, -1280, 0, -1536, 0, -1792, 0, -2048, -256 )",
-						"smoothness": 0.8,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
-						"width": 512,
-						"layer": 100,
-						"fade_in": false,
-						"fade_out": false,
-						"grow": false,
-						"shrink": false,
-						"block_light": false,
-						"loop": false,
-						"node_id": "81f"
-					},
-					{
-						"position": "Vector2( 1280, 1024 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, -256, 256, -256, 512, 0, 768, 256, 768, 512, 768, 768, 512, 1024, 512, 1280, 512, 1536, 768, 1536, 2048, 1536, 2304, 1280, 2560, 1024, 2560, 768, 2560, 512, 2304, 256, 2304, 0, 2304, -256, 2560, -256, 2816, 0, 3072 )",
-						"smoothness": 0.8,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
-						"width": 512,
-						"layer": 100,
-						"fade_in": false,
-						"fade_out": false,
-						"grow": false,
-						"shrink": false,
-						"block_light": false,
-						"loop": false,
-						"node_id": "820"
 					},
 					{
 						"position": "Vector2( 1024, 3840 )",
@@ -5305,7 +5228,7 @@
 						"smoothness": 0.8,
 						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
 						"width": 256,
-						"layer": 100,
+						"layer": 200,
 						"fade_in": false,
 						"fade_out": false,
 						"grow": false,
@@ -5415,6 +5338,108 @@
 						"block_light": false,
 						"loop": false,
 						"node_id": "9a4"
+					},
+					{
+						"position": "Vector2( 3328, 1280 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -256, 0, -512, -256, -768, -256, -1024, -256, -1280, 0, -1536, 0, -1792, 0, -2048, -256 )",
+						"smoothness": 0.8,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
+						"width": 512,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "81f"
+					},
+					{
+						"position": "Vector2( 2816, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, 256, -256, 512, -768, 512, -1024, 256, -1536, 256 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "ad8"
+					},
+					{
+						"position": "Vector2( 1280, 1792 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 256, 0, 512, 0, 768, -256, 1024, -256, 1280, -256, 1536, 0, 1536, 256 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "ada"
+					},
+					{
+						"position": "Vector2( 2560, 1536 )",
+						"rotation": -1.570794,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( -512, 256, -256, 256, 0, 0, 0, -256 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
+						"width": 512,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "adb"
+					},
+					{
+						"position": "Vector2( 1280, 3328 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -256, 256, -256, 512, 0, 768 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
+						"width": 512,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": true,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "add"
+					},
+					{
+						"position": "Vector2( 1280, 1024 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -256, 256, -256, 512, 0, 768 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
+						"width": 512,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": true,
+						"block_light": false,
+						"loop": false,
+						"node_id": "adf"
 					}
 				],
 				"objects": [
@@ -6138,6 +6163,116 @@
 						"shadow": false,
 						"block_light": false,
 						"node_id": "ab5"
+					},
+					{
+						"position": "Vector2( 2560, 1536 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ac8"
+					},
+					{
+						"position": "Vector2( 2816, 1792 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ac9"
+					},
+					{
+						"position": "Vector2( 2048, 1536 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "aca"
+					},
+					{
+						"position": "Vector2( 1792, 1792 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "acb"
+					},
+					{
+						"position": "Vector2( 1792, 3328 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "acc"
+					},
+					{
+						"position": "Vector2( 2048, 3584 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "acd"
+					},
+					{
+						"position": "Vector2( 2560, 3584 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ace"
+					},
+					{
+						"position": "Vector2( 2816, 3328 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "acf"
+					},
+					{
+						"position": "Vector2( 2816, 2048 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ad5"
+					},
+					{
+						"position": "Vector2( 2816, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_wood_04.png",
+						"layer": 700,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ad6"
 					}
 				],
 				"lights": [
@@ -6158,7 +6293,7 @@
 			"3": {
 				"label": "Manor 1st Floor",
 				"environment": {
-					"baked_lighting": false,
+					"baked_lighting": true,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -6865,7 +7000,7 @@
 				},
 				"patterns": [
 					{
-						"position": "Vector2( 2, 0 )",
+						"position": "Vector2( 0, 0 )",
 						"shape_rotation": 0,
 						"scale": "Vector2( 1, 1 )",
 						"points": "PoolVector2Array( 1792, 1792, 2048, 1536, 2560, 1536, 2816, 1792, 2816, 3328, 2560, 3584, 2048, 3584, 1792, 3328, 1280, 3328, 1280, 3072, 1024, 2816, 1024, 2304, 1280, 2048, 1280, 1792 )",
@@ -7052,7 +7187,7 @@
 						"layer": 100,
 						"color": "ffffffff",
 						"outline": false,
-						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow50.png",
+						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
 						"rotation": 0,
 						"node_id": "717"
 					},
@@ -7072,8 +7207,20 @@
 						"position": "Vector2( 0, 0 )",
 						"shape_rotation": 0,
 						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 4608, 3840, 5120, 4352, 6144, 4352, 6656, 3840, 6144, 3840, 5888, 3584, 5376, 3584, 5120, 3840 )",
+						"layer": 200,
+						"color": "ffffffff",
+						"outline": false,
+						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
+						"rotation": 0,
+						"node_id": "ae1"
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
 						"points": "PoolVector2Array( 1024, 1536, 512, 1536, 256, 1792, 256, 3328, 512, 3584, 1024, 3584, 1280, 3328, 1280, 3072, 1024, 2816, 1024, 2304, 1280, 2048, 1280, 1792 )",
-						"layer": 100,
+						"layer": 200,
 						"color": "ffffffff",
 						"outline": false,
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
@@ -8130,6 +8277,57 @@
 				},
 				"paths": [
 					{
+						"position": "Vector2( 2560, 1792 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -512, 0 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "aed"
+					},
+					{
+						"position": "Vector2( 2048, 3328 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 512, 0 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "aee"
+					},
+					{
+						"position": "Vector2( 2560, 3072 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -128, 0, -234.019, 0.00415039, -256, 0, -269.122, -13.5339, -384, -128, -498.519, -241.496, -512, -256, -512.019, -278.496, -512, -384, -512, -640, -512.019, -745.996, -512, -768, -500.019, -779.996, -384, -896, -270.519, -1010, -256, -1024, -234.519, -1024.5, -128, -1024, 0, -1024, 0, -1024 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 100,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "aeb"
+					},
+					{
 						"position": "Vector2( 731, 705 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
@@ -8349,40 +8547,6 @@
 						"block_light": false,
 						"loop": false,
 						"node_id": "721"
-					},
-					{
-						"position": "Vector2( 1792, 3328 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, 768, 0 )",
-						"smoothness": 1,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
-						"width": 512,
-						"layer": 100,
-						"fade_in": false,
-						"fade_out": false,
-						"grow": true,
-						"shrink": false,
-						"block_light": false,
-						"loop": false,
-						"node_id": "71b"
-					},
-					{
-						"position": "Vector2( 2560, 1792 )",
-						"rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, -768, 0 )",
-						"smoothness": 1,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
-						"width": 512,
-						"layer": 100,
-						"fade_in": false,
-						"fade_out": false,
-						"grow": false,
-						"shrink": true,
-						"block_light": false,
-						"loop": false,
-						"node_id": "71a"
 					},
 					{
 						"position": "Vector2( 7296, 3072 )",
@@ -9099,24 +9263,163 @@
 						"node_id": "97f"
 					},
 					{
-						"position": "Vector2( 2560, 3072 )",
+						"position": "Vector2( 6656, 3840 )",
 						"rotation": 0,
 						"scale": "Vector2( 1, 1 )",
-						"edit_points": "PoolVector2Array( 0, 0, -233.196, 1.36768, -255.196, 1.36768, -269.196, -12.6323, -498.529, -241.966, -509.195, -252.632, -511.862, -275.299, -512.663, -753.231, -512, -768, -503.163, -777.231, -271.163, -1008.73, -256, -1024, -226.663, -1024.73, 0, -1024 )",
-						"smoothness": 0,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed50.png",
+						"edit_points": "PoolVector2Array( 0, 0, -128, 128, -256, 256, -384, 384, -488.021, 486.666, -512, 512, -542.719, 512.104, -640, 512, -1408, 512, -1503.72, 514.104, -1536, 512, -1565.72, 483.104, -1664, 384, -2048, 0 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
 						"width": 512,
-						"layer": 100,
+						"layer": 200,
 						"fade_in": false,
 						"fade_out": false,
 						"grow": false,
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "99b"
+						"node_id": "ae6"
+					},
+					{
+						"position": "Vector2( 1024, 3584 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, -384, 0, -486.719, 0.103516, -512, 0, -530.719, -18.8965, -640, -128, -640, -128, -750.719, -237.896, -768, -256, -768.719, -283.896, -768, -384, -768, -512, -768, -1664, -767.719, -1756.9, -768, -1792, -744.719, -1816.4, -640, -1920, -531.219, -2028.9, -512, -2048, -481.719, -2048.9, -384, -2048, 0, -2048 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 512,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "ae9"
+					},
+					{
+						"position": "Vector2( 2560, 2048 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, -256 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "aec"
+					},
+					{
+						"position": "Vector2( 2560, 3328 )",
+						"rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"edit_points": "PoolVector2Array( 0, 0, 0, -256 )",
+						"smoothness": 1,
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
+						"width": 256,
+						"layer": 200,
+						"fade_in": false,
+						"fade_out": false,
+						"grow": false,
+						"shrink": false,
+						"block_light": false,
+						"loop": false,
+						"node_id": "aef"
 					}
 				],
 				"objects": [
+					{
+						"position": "Vector2( 6144, 4096 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://packs/XpMDQfBe/textures/objects/Shadows/Circle/Small/ShadowFullCircleSmall50.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "aff"
+					},
+					{
+						"position": "Vector2( 5120, 4096 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://packs/XpMDQfBe/textures/objects/Shadows/Circle/Small/ShadowFullCircleSmall50.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "afe"
+					},
+					{
+						"position": "Vector2( 2304, 2816 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://packs/XpMDQfBe/textures/objects/Shadows/Circle/Small/ShadowFullCircleSmall50.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "afd"
+					},
+					{
+						"position": "Vector2( 2304, 2304 )",
+						"rotation": 0,
+						"scale": "Vector2( 1.3, 1.3 )",
+						"mirror": false,
+						"texture": "res://packs/XpMDQfBe/textures/objects/Shadows/Circle/Small/ShadowFullCircleSmall50.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "afc"
+					},
+					{
+						"position": "Vector2( 6144, 4096 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_stone_14.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "afb"
+					},
+					{
+						"position": "Vector2( 5120, 4096 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_stone_14.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "afa"
+					},
+					{
+						"position": "Vector2( 2304, 2816 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_stone_14.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "af9"
+					},
+					{
+						"position": "Vector2( 2304, 2304 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/pillar_stone_14.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "af8"
+					},
 					{
 						"position": "Vector2( 5853.01, 1202.37 )",
 						"rotation": 0,
@@ -9728,7 +10031,7 @@
 			"4": {
 				"label": "Cellar",
 				"environment": {
-					"baked_lighting": false,
+					"baked_lighting": true,
 					"ambient_light": "ffffffff"
 				},
 				"layers": {
@@ -11316,7 +11619,7 @@
 				"water": {
 					"disable_border": false,
 					"tree": {
-						"ref": 1467979942,
+						"ref": -1649329978,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -11326,7 +11629,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": -1454417090,
+								"ref": -1871789590,
 								"polygon": "PoolVector2Array( 5888, 4096, 5120, 4096, 5120, 3584, 5888, 3584 )",
 								"join": 0,
 								"end": 0,
@@ -13051,7 +13354,7 @@
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, 1024, 0, 1024 )",
 						"smoothness": 1,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed25.png",
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
 						"width": 512,
 						"layer": 100,
 						"fade_in": false,
@@ -13068,7 +13371,7 @@
 						"scale": "Vector2( 1, 1 )",
 						"edit_points": "PoolVector2Array( 0, 0, 0, -1024 )",
 						"smoothness": 1,
-						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathMed25.png",
+						"texture": "res://packs/XpMDQfBe/textures/paths/Shadow/ShadowPath/ShadowPathSmall25.png",
 						"width": 512,
 						"layer": 100,
 						"fade_in": false,
