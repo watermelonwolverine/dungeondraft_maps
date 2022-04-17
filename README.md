@@ -64,3 +64,12 @@ The id of CH-Buildings asset pack in this example is `DZw7eElc`. So to check if 
 |CH-Team                          |0.6            |https://www.patreon.com/Crosshead                                     |
 |Darkness                         |1              |https://cartographyassets.com/assets/15323/darkness-terrain-brush/    |
 |Krager's Shadows & Light Pack    |1.0            |https://cartographyassets.com/assets/7713/kragers-shadow-light-pack/  |
+
+# Support
+
+If you want to support me you can:
+
+- Become a Crosshead (https://www.patreon.com/Crosshead) patreon so they can make more assets
+- Purchase Dungeondraft (https://dungeondraft.net/) so they can further improve their program
+- Upvote my posts in reddit: https://www.reddit.com/user/YummyOr4nges
+- Share your own work
