@@ -1,12 +1,21 @@
+# About
 Created for the Wyvern Tor orc camp of the LMoP adventure but can also be used as a generic cave hideout.
 
 If you are using FoundryVTT I recommend using Levels (https://github.com/theripper93/Levels) for this map.
+
+# Entrances
 
 The players can enter:
 
 - Through the front door
 - Through the stream and waterfall 
 - Through the hole on the top
+
+# Goals
+
+Kill what ever resides within the cave.
+
+# Recommendations
 
 I put many strong mobs in the cave - far too many to deal with in a normal fight so the players need to get creative. 
 
