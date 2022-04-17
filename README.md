@@ -1,7 +1,7 @@
 # How to find out which asset packs were active for a map?
 
 Open the dungeondraft_map file with a text editor (like Notepad++). You will see text in json format.
-Under `header` -> `asset_manifest` you will find all asset packs listed that were active when the map was last saved. This doesn't mean any all packs were actually used though. This is an important difference because I always activate all my packages but usually don't use them all.
+Under `header` -> `asset_manifest` you will find all asset packs listed that were active when the map was last saved. This doesn't mean all packs were actually used though. This is an important difference because I always activate all my packages but usually don't use them all.
 
 ## Optional: Find out which asset packs were used
 
@@ -55,8 +55,12 @@ The id of CH-Buildings asset pack in this example is `DZw7eElc`. So to check if 
 |---------------------------------|---------------|----------------------------------------------------------------------|
 |Crosshead                        |1              |https://www.patreon.com/Crosshead                                     |
 |CH-Buildings                     |0.6            |https://www.patreon.com/Crosshead                                     |
-|CH-Gardens                       |1              |https://www.patreon.com/Crosshead                                     |
+|CH-Gardens                       |1.0            |https://www.patreon.com/Crosshead                                     |
+|CH-Giant                         |0.2            |https://www.patreon.com/Crosshead                                     |
+|CH-Nature                        |0.4            |https://www.patreon.com/Crosshead                                     |
+|CH-Prefabs                       |0.1            |https://www.patreon.com/Crosshead                                     |
 |CH-Ruins                         |0.3            |https://www.patreon.com/Crosshead                                     |
+|CH-Sea                           |0.4            |https://www.patreon.com/Crosshead                                     |
 |CH-Team                          |0.6            |https://www.patreon.com/Crosshead                                     |
 |Darkness                         |1              |https://cartographyassets.com/assets/15323/darkness-terrain-brush/    |
 |Krager's Shadows & Light Pack    |1.0            |https://cartographyassets.com/assets/7713/kragers-shadow-light-pack/  |
