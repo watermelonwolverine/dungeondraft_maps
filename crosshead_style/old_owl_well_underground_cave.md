@@ -41,7 +41,7 @@ A trap is waiting for anybody who takes this route. What trap is up to you. Mayb
 
 ### [1.2] Camp in the center of the room
 Hamun's camp. The scrolls and the books should tell a bit about:
-- The acient Netheril empire.
+- The ancient Netheril empire.
 - The construction of Old Owl Well
 - What Hamun is searching for. Maybe some foreshadowing to what they will find in the old barracks [4] at the altar [4.3]
 
@@ -72,7 +72,7 @@ The door is made of metal bars and has no lock. It is opened by a mechanism whic
 ### [3.2] Pump
 The pump is of ancient origin (Netheril) and worked until a few years ago. To get it running the characters need the replace the used up energy crystal with the new one (1).
 
-## [4] Old baracks: Room in the south.
+## [4] Old barracks: Room in the south.
 
 This room was once used by guards and traders for sleeping and praying.
 If Hamun Kost is still when they open the door he will try and get in before them and loot everything valuable.
@@ -111,7 +111,7 @@ Can be seen from the southern entrance [5.1]. Let character make a perception ch
 This is the nest of umber hulks. Two are are here while one is out hunting. One of the present ones is a juvenile and relatively weak. The other one is an adult specimen.
 The juvenile is gnawing on some bones while the adult on is sleeping.
 
-The characters can avoid a battle if they succesfully sneak past the umber hulks and/or manage to soothe the juvenile.
+The characters can avoid a battle if they successfully sneak past the umber hulks and/or manage to soothe the juvenile.
 
 When they fight the umber hulks let the absent adult one join the fight in a later round.
 If you want give your players some feeling of guilt let the juvenile die with some heartbreaking yell after which the absent umber hulk comes back.  
