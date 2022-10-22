@@ -26,30 +26,6 @@
 				}
 			},
 			{
-				"name": "CH - Gardens",
-				"id": "eMSwy6B7",
-				"version": "1",
-				"author": "Crosshead",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
-				"name": "CH - Giant",
-				"id": "b0twaJ58",
-				"version": "0,2",
-				"author": "Crosshead",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
 				"name": "CH - Nature",
 				"id": "kwKf0idh",
 				"version": "0,4",
@@ -62,33 +38,9 @@
 				}
 			},
 			{
-				"name": "CH - Prefabs",
-				"id": "8neEh9PL",
-				"version": "0,3",
-				"author": "Crosshead",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
 				"name": "CH - Ruins",
 				"id": "4UcCbKRJ",
 				"version": "0,3",
-				"author": "Crosshead",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
-				"name": "CH - Sea",
-				"id": "Ac6fobYn",
-				"version": "0,4",
 				"author": "Crosshead",
 				"custom_color_overrides": {
 					"enabled": false,
@@ -122,18 +74,6 @@
 				}
 			},
 			{
-				"name": "Crosshead modified",
-				"id": "q5LYP5MQ",
-				"version": "1.1",
-				"author": "WatermelonWolverine",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0,
-					"min_saturation": 0,
-					"red_tolerance": 0
-				}
-			},
-			{
 				"name": "Darkness",
 				"id": "85OI3DBj",
 				"version": "1",
@@ -143,18 +83,6 @@
 					"min_redness": 0.1,
 					"min_saturation": 0,
 					"red_tolerance": 0.04
-				}
-			},
-			{
-				"name": "GF Natural Elevation",
-				"id": "pUP4Gs76",
-				"version": "1",
-				"author": "Gnome Factory",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0,
-					"min_saturation": 0,
-					"red_tolerance": 0
 				}
 			},
 			{
