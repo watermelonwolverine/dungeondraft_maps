@@ -16,8 +16,24 @@
 			{
 				"name": "CH - Buildings",
 				"id": "DZw7eElc",
-				"version": "0,6",
+				"version": "1",
 				"author": "Crosshead",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
+				"custom_color_overrides": {
+					"enabled": false,
+					"min_redness": 0.1,
+					"min_saturation": 0,
+					"red_tolerance": 0.04
+				}
+			},
+			{
+				"name": "CH - Crosshead",
+				"id": "xjCzavyl",
+				"version": "1,1",
+				"author": "Crosshead",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0.1,
@@ -30,6 +46,8 @@
 				"id": "eMSwy6B7",
 				"version": "1",
 				"author": "Crosshead",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0.1,
@@ -42,6 +60,8 @@
 				"id": "4UcCbKRJ",
 				"version": "0,3",
 				"author": "Crosshead",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0.1,
@@ -54,18 +74,8 @@
 				"id": "BYcn0rLD",
 				"version": "0,6",
 				"author": "Crosshead",
-				"custom_color_overrides": {
-					"enabled": false,
-					"min_redness": 0.1,
-					"min_saturation": 0,
-					"red_tolerance": 0.04
-				}
-			},
-			{
-				"name": "Crosshead",
-				"id": "xjCzavyl",
-				"version": "1",
-				"author": "Crosshead",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0.1,
@@ -76,8 +86,10 @@
 			{
 				"name": "Crosshead modified",
 				"id": "q5LYP5MQ",
-				"version": "1",
+				"version": "1.1",
 				"author": "WatermelonWolverine",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
@@ -90,6 +102,8 @@
 				"id": "85OI3DBj",
 				"version": "1",
 				"author": "Plu3schie",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0.1,
@@ -102,6 +116,8 @@
 				"id": "XpMDQfBe",
 				"version": "1.0",
 				"author": "Krager",
+				"keywords": null,
+				"allow_3rd_party_mapping_software_to_read": false,
 				"custom_color_overrides": {
 					"enabled": false,
 					"min_redness": 0,
@@ -111,9 +127,9 @@
 			}
 		],
 		"editor_state": {
-			"current_level": 5,
-			"camera_position": "Vector2( 2865.78, 3016.04 )",
-			"camera_zoom": 5.333333,
+			"current_level": 4,
+			"camera_position": "Vector2( 5953.11, 2122.97 )",
+			"camera_zoom": 3.2,
 			"guide_position": "null",
 			"trace_image": null,
 			"color_palettes": {
@@ -216,7 +232,7 @@
 			"object_tags_memory": {
 				"set": 0,
 				"tags": [
-					".Decor"
+					".Table"
 				]
 			},
 			"scatter_tags_memory": {
@@ -227,9 +243,9 @@
 			},
 			"object_library_memory": {
 				"mode": "all",
-				"scroll": 1036,
+				"scroll": 0,
 				"selected": [
-					"res://packs/xjCzavyl/textures/objects/stone2_rubble_01.png"
+					"res://packs/xjCzavyl/textures/objects/cutting_board_01.png"
 				],
 				"search_strictness": 0.69
 			},
@@ -257,7 +273,7 @@
 		"format": 3,
 		"width": 32,
 		"height": 20,
-		"next_node_id": "c86",
+		"next_node_id": "cea",
 		"next_prefab_id": "0",
 		"msi": {
 			"offset_map_size": 512,
@@ -270,6 +286,9 @@
 			"texture": "res://textures/grid/dotted_line.png"
 		},
 		"building_wear": "res://textures/wear/grime.png",
+		"wall_shadow": true,
+		"object_shadow": false,
+		"trace_image_visible": false,
 		"embedded": {
 
 		},
@@ -943,43 +962,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -993,7 +981,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_tiled.png",
 						"rotation": 1.570796,
-						"node_id": "6d6"
+						"node_id": "6d6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -1005,7 +994,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_tiled.png",
 						"rotation": 1.570796,
-						"node_id": "6d7"
+						"node_id": "6d7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -1017,7 +1007,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_tiled.png",
 						"rotation": 1.570796,
-						"node_id": "6d8"
+						"node_id": "6d8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -1029,7 +1020,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_tiled.png",
 						"rotation": 1.570796,
-						"node_id": "6d9"
+						"node_id": "6d9",
+						"locked": true
 					}
 				],
 				"walls": [
@@ -1114,9 +1106,7 @@
 					"disable_border": false
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 					{
@@ -1134,7 +1124,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "8ae"
+						"node_id": "8ae",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4440.86, 3041.96 )",
@@ -1151,7 +1142,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "8b0"
+						"node_id": "8b0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3128.71, 1195.38 )",
@@ -1168,7 +1160,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "8b2"
+						"node_id": "8b2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1283.43, 786.961 )",
@@ -1185,7 +1178,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "917"
+						"node_id": "917",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 777.629, 3857.99 )",
@@ -1202,7 +1196,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "918"
+						"node_id": "918",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6919.79, 4371.43 )",
@@ -1219,7 +1214,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "919"
+						"node_id": "919",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7423.9, 1305.27 )",
@@ -1236,7 +1232,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "91a"
+						"node_id": "91a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 4608 )",
@@ -1253,7 +1250,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "91c"
+						"node_id": "91c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 4608 )",
@@ -1270,7 +1268,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "91d"
+						"node_id": "91d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 1280 )",
@@ -1287,7 +1286,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "91e"
+						"node_id": "91e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 1280 )",
@@ -1304,7 +1304,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "91f"
+						"node_id": "91f",
+						"locked": true
 					}
 				],
 				"objects": [
@@ -1317,7 +1318,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8ad"
+						"node_id": "8ad",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4605.03, 2933.18 )",
@@ -1328,7 +1330,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8af"
+						"node_id": "8af",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2933.03, 1173.18 )",
@@ -1339,7 +1342,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8b1"
+						"node_id": "8b1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 896 )",
@@ -1350,7 +1354,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8b6"
+						"node_id": "8b6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 4224 )",
@@ -1361,7 +1366,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8b7"
+						"node_id": "8b7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 4224 )",
@@ -1372,7 +1378,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8b8"
+						"node_id": "8b8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 896 )",
@@ -1383,7 +1390,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "8b9"
+						"node_id": "8b9",
+						"locked": true
 					}
 				],
 				"lights": [
@@ -2070,43 +2078,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -2139,9 +2116,7 @@
 					"disable_border": false
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 					{
@@ -2159,7 +2134,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c0"
+						"node_id": "8c0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 2560 )",
@@ -2176,7 +2152,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c2"
+						"node_id": "8c2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 2560 )",
@@ -2193,7 +2170,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c3"
+						"node_id": "8c3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 768 )",
@@ -2210,7 +2188,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c4"
+						"node_id": "8c4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 2560 )",
@@ -2227,7 +2206,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c5"
+						"node_id": "8c5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 768 )",
@@ -2244,7 +2224,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c6"
+						"node_id": "8c6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 2560 )",
@@ -2261,7 +2242,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c7"
+						"node_id": "8c7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5632, 768 )",
@@ -2278,7 +2260,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8c9"
+						"node_id": "8c9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5632, 2560 )",
@@ -2295,7 +2278,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8ca"
+						"node_id": "8ca",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 2560 )",
@@ -2312,7 +2296,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8cb"
+						"node_id": "8cb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 768 )",
@@ -2329,7 +2314,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "8f2"
+						"node_id": "8f2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 768 )",
@@ -2346,7 +2332,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "8f3"
+						"node_id": "8f3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2180.8, 1412.8 )",
@@ -2363,7 +2350,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "8ff"
+						"node_id": "8ff",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6012, 1422 )",
@@ -2380,7 +2368,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "902"
+						"node_id": "902",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 3328 )",
@@ -2397,7 +2386,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "904"
+						"node_id": "904",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 3328 )",
@@ -2414,7 +2404,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "905"
+						"node_id": "905",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1416, 2935.6 )",
@@ -2431,7 +2422,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "906"
+						"node_id": "906",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6010, 3706 )",
@@ -2448,7 +2440,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "907"
+						"node_id": "907",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 4352 )",
@@ -2465,7 +2458,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "909"
+						"node_id": "909",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3968, 768 )",
@@ -2482,7 +2476,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "90b"
+						"node_id": "90b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5504, 768 )",
@@ -2499,7 +2494,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "90c"
+						"node_id": "90c",
+						"locked": true
 					}
 				],
 				"objects": [
@@ -2512,7 +2508,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "5bf"
+						"node_id": "5bf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 768 )",
@@ -2523,7 +2520,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "5c0"
+						"node_id": "5c0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 4352 )",
@@ -2534,7 +2532,8 @@
 						"layer": 900,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "5c1"
+						"node_id": "5c1",
+						"locked": true
 					}
 				],
 				"lights": [
@@ -2553,7 +2552,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 1280,
 							"type": 0,
-							"node_id": "634"
+							"node_id": "634",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2563,7 +2563,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "61d"
+							"node_id": "61d",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2573,7 +2574,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "61e"
+							"node_id": "61e",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2583,7 +2585,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "620"
+							"node_id": "620",
+							"locked": true
 						},
 						{
 							"position": "Vector2( -128, 128 )",
@@ -2593,7 +2596,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 512,
 							"type": 2,
-							"node_id": "626"
+							"node_id": "626",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 128, -128 )",
@@ -2603,7 +2607,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 512,
 							"type": 2,
-							"node_id": "623"
+							"node_id": "623",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 128, 128 )",
@@ -2613,7 +2618,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 512,
 							"type": 2,
-							"node_id": "625"
+							"node_id": "625",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2623,7 +2629,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "629"
+							"node_id": "629",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2633,7 +2640,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "62a"
+							"node_id": "62a",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -2643,7 +2651,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 768,
 							"type": 2,
-							"node_id": "b03"
+							"node_id": "b03",
+							"locked": true
 						},
 						{
 							"position": "Vector2( -128, -128 )",
@@ -2653,7 +2662,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 512,
 							"type": 2,
-							"node_id": "b05"
+							"node_id": "b05",
+							"locked": true
 						}
 					]
 				},
@@ -3330,43 +3340,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -3410,9 +3389,7 @@
 					"disable_border": false
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 					{
@@ -4543,43 +4520,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -4593,7 +4539,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_tiles_ornate.png",
 						"rotation": 0,
-						"node_id": "55d"
+						"node_id": "55d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4605,7 +4552,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "57f"
+						"node_id": "57f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4617,7 +4565,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "58c"
+						"node_id": "58c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4629,7 +4578,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "598"
+						"node_id": "598",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4641,7 +4591,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "599"
+						"node_id": "599",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4653,7 +4604,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "59a"
+						"node_id": "59a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4665,7 +4617,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "59b"
+						"node_id": "59b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4677,7 +4630,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "59c"
+						"node_id": "59c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4689,7 +4643,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "59e"
+						"node_id": "59e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4701,7 +4656,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_tiles_ornate.png",
 						"rotation": 0,
-						"node_id": "59f"
+						"node_id": "59f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4713,7 +4669,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "5a0"
+						"node_id": "5a0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4725,7 +4682,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "5a1"
+						"node_id": "5a1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4735,9 +4693,10 @@
 						"layer": 100,
 						"color": "ffffffff",
 						"outline": false,
-						"texture": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
+						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "5a2"
+						"node_id": "5a2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4749,7 +4708,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "5a3"
+						"node_id": "5a3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4761,7 +4721,8 @@
 						"outline": false,
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow100.png",
 						"rotation": 0,
-						"node_id": "7ef"
+						"node_id": "7ef",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4773,7 +4734,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "c64"
+						"node_id": "c64",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4785,7 +4747,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "58a"
+						"node_id": "58a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -4797,7 +4760,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "58b"
+						"node_id": "58b",
+						"locked": true
 					}
 				],
 				"walls": [
@@ -5902,9 +5866,7 @@
 					"disable_border": false
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 					{
@@ -5922,7 +5884,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "74a"
+						"node_id": "74a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 2816 )",
@@ -5939,7 +5902,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "74b"
+						"node_id": "74b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 2816 )",
@@ -5956,7 +5920,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "749"
+						"node_id": "749",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 2816 )",
@@ -5973,7 +5938,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "748"
+						"node_id": "748",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5376, 1024 )",
@@ -5990,7 +5956,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "745"
+						"node_id": "745",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 1280 )",
@@ -6007,7 +5974,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "744"
+						"node_id": "744",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 2304 )",
@@ -6024,7 +5992,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "743"
+						"node_id": "743",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5376, 2304 )",
@@ -6041,7 +6010,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "742"
+						"node_id": "742",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5376, 2304 )",
@@ -6058,7 +6028,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "741"
+						"node_id": "741",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 2304 )",
@@ -6075,7 +6046,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "740"
+						"node_id": "740",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 1024 )",
@@ -6092,7 +6064,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "73f"
+						"node_id": "73f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 2304 )",
@@ -6109,7 +6082,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "73e"
+						"node_id": "73e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 2304 )",
@@ -6126,7 +6100,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "73d"
+						"node_id": "73d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 4096 )",
@@ -6143,7 +6118,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "73a"
+						"node_id": "73a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 3840 )",
@@ -6160,7 +6136,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "739"
+						"node_id": "739",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 4096 )",
@@ -6177,7 +6154,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "738"
+						"node_id": "738",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 2048 )",
@@ -6194,7 +6172,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "561"
+						"node_id": "561",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 3072 )",
@@ -6211,7 +6190,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "562"
+						"node_id": "562",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 3328 )",
@@ -6228,7 +6208,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "731"
+						"node_id": "731",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 1536 )",
@@ -6245,7 +6226,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "736"
+						"node_id": "736",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1153.33, 922.667 )",
@@ -6262,7 +6244,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7d2"
+						"node_id": "7d2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 773.437, 1280.45 )",
@@ -6279,7 +6262,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "7d3"
+						"node_id": "7d3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 620.676, 659.63 )",
@@ -6296,7 +6280,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7d4"
+						"node_id": "7d4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1282.64, 768.51 )",
@@ -6313,7 +6298,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7d5"
+						"node_id": "7d5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 1280 )",
@@ -6330,7 +6316,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "819"
+						"node_id": "819",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 4096 )",
@@ -6347,7 +6334,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "81a"
+						"node_id": "81a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 3840 )",
@@ -6364,7 +6352,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "81c"
+						"node_id": "81c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 1280 )",
@@ -6381,7 +6370,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "81d"
+						"node_id": "81d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 1024 )",
@@ -6398,7 +6388,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "81e"
+						"node_id": "81e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3840 )",
@@ -6415,7 +6406,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "821"
+						"node_id": "821",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 3072 )",
@@ -6432,7 +6424,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "824"
+						"node_id": "824",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 2048 )",
@@ -6449,7 +6442,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "825"
+						"node_id": "825",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 3840 )",
@@ -6466,7 +6460,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "899"
+						"node_id": "899",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 2816 )",
@@ -6483,7 +6478,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "89a"
+						"node_id": "89a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 3840 )",
@@ -6500,7 +6496,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "99e"
+						"node_id": "99e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 3840 )",
@@ -6517,7 +6514,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "9a1"
+						"node_id": "9a1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3584 )",
@@ -6534,7 +6532,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "9a3"
+						"node_id": "9a3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 2560 )",
@@ -6551,7 +6550,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "9a4"
+						"node_id": "9a4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 1280 )",
@@ -6568,7 +6568,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "81f"
+						"node_id": "81f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 3072 )",
@@ -6585,7 +6586,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ad8"
+						"node_id": "ad8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 1792 )",
@@ -6602,7 +6604,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ada"
+						"node_id": "ada",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 1536 )",
@@ -6619,7 +6622,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "adb"
+						"node_id": "adb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 3328 )",
@@ -6636,7 +6640,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "add"
+						"node_id": "add",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 1024 )",
@@ -6653,7 +6658,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "adf"
+						"node_id": "adf",
+						"locked": true
 					}
 				],
 				"objects": [
@@ -6666,7 +6672,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c7"
+						"node_id": "9c7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7297.01, 900.769 )",
@@ -6677,7 +6684,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c6"
+						"node_id": "9c6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 901.008, 928.769 )",
@@ -6688,7 +6696,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c5"
+						"node_id": "9c5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 933.008, 4240.77 )",
@@ -6699,7 +6708,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c4"
+						"node_id": "9c4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4357.01, 2907.97 )",
@@ -6710,7 +6720,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c3"
+						"node_id": "9c3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4486.61, 3071.17 )",
@@ -6721,7 +6732,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c2"
+						"node_id": "9c2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4734.61, 3088.77 )",
@@ -6732,7 +6744,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c1"
+						"node_id": "9c1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4873.81, 2943.17 )",
@@ -6743,7 +6756,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9c0"
+						"node_id": "9c0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5507.41, 1370.37 )",
@@ -6754,7 +6768,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9bd"
+						"node_id": "9bd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5497.81, 1615.17 )",
@@ -6765,7 +6780,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9bc"
+						"node_id": "9bc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5217.81, 1605.57 )",
@@ -6776,7 +6792,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9bb"
+						"node_id": "9bb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5232.21, 1373.57 )",
@@ -6787,7 +6804,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9ba"
+						"node_id": "9ba",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3093.35, 1038.06 )",
@@ -6798,7 +6816,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "791"
+						"node_id": "791",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5538.68, 1492.72 )",
@@ -6809,7 +6828,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "792"
+						"node_id": "792",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5205.35, 1490.06 )",
@@ -6820,7 +6840,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "793"
+						"node_id": "793",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4806.67, 3034.67 )",
@@ -6831,7 +6852,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "795"
+						"node_id": "795",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4397.88, 3022.32 )",
@@ -6842,7 +6864,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "7a0"
+						"node_id": "7a0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 4224 )",
@@ -6853,7 +6876,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "827"
+						"node_id": "827",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 896 )",
@@ -6864,7 +6888,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "828"
+						"node_id": "828",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 4224 )",
@@ -6875,7 +6900,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "829"
+						"node_id": "829",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 896 )",
@@ -6886,7 +6912,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "82e"
+						"node_id": "82e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 2304 )",
@@ -6897,7 +6924,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98f"
+						"node_id": "98f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 2816 )",
@@ -6908,7 +6936,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "990"
+						"node_id": "990",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 3072 )",
@@ -6919,7 +6948,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "991"
+						"node_id": "991",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 2048 )",
@@ -6930,7 +6960,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "992"
+						"node_id": "992",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 2048 )",
@@ -6941,7 +6972,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "993"
+						"node_id": "993",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 3072 )",
@@ -6952,7 +6984,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "994"
+						"node_id": "994",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 1536 )",
@@ -6963,7 +6996,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "ac8"
+						"node_id": "ac8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 1792 )",
@@ -6974,7 +7008,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "ac9"
+						"node_id": "ac9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 1536 )",
@@ -6985,7 +7020,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "aca"
+						"node_id": "aca",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 1792 )",
@@ -6996,7 +7032,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "acb"
+						"node_id": "acb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3328 )",
@@ -7007,7 +7044,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "acc"
+						"node_id": "acc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 3584 )",
@@ -7018,7 +7056,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "acd"
+						"node_id": "acd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 3584 )",
@@ -7029,7 +7068,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "ace"
+						"node_id": "ace",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 3328 )",
@@ -7040,7 +7080,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "acf"
+						"node_id": "acf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 2048 )",
@@ -7051,7 +7092,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "ad5"
+						"node_id": "ad5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 3072 )",
@@ -7062,7 +7104,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "ad6"
+						"node_id": "ad6",
+						"locked": true
 					}
 				],
 				"lights": [
@@ -7749,43 +7792,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -7799,7 +7811,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "505"
+						"node_id": "505",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7811,7 +7824,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_stone_ornate.png",
 						"rotation": 0,
-						"node_id": "530"
+						"node_id": "530",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7823,7 +7837,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "539"
+						"node_id": "539",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7835,7 +7850,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/colorable/ch_diamond_one.png",
 						"rotation": 0,
-						"node_id": "53a"
+						"node_id": "53a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7847,7 +7863,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_interlaced.png",
 						"rotation": 0,
-						"node_id": "53b"
+						"node_id": "53b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7859,7 +7876,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "53c"
+						"node_id": "53c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7871,7 +7889,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_tiles_ceramic.png",
 						"rotation": 0,
-						"node_id": "53d"
+						"node_id": "53d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7883,7 +7902,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "53e"
+						"node_id": "53e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7895,7 +7915,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_tiles_ceramic.png",
 						"rotation": 0,
-						"node_id": "53f"
+						"node_id": "53f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7907,7 +7928,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_interlaced.png",
 						"rotation": 0,
-						"node_id": "541"
+						"node_id": "541",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7919,7 +7941,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_stone_ornate.png",
 						"rotation": 0,
-						"node_id": "543"
+						"node_id": "543",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7931,7 +7954,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_interlaced.png",
 						"rotation": 0,
-						"node_id": "544"
+						"node_id": "544",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7943,7 +7967,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_wood_short.png",
 						"rotation": 0,
-						"node_id": "545"
+						"node_id": "545",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7955,7 +7980,8 @@
 						"outline": false,
 						"texture": "res://packs/xjCzavyl/textures/patterns/normal/ch_tiles_ornate.png",
 						"rotation": 0,
-						"node_id": "546"
+						"node_id": "546",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7967,7 +7993,8 @@
 						"outline": false,
 						"texture": "res://packs/DZw7eElc/textures/patterns/normal/Stones_Cellar.png",
 						"rotation": 0,
-						"node_id": "6e7"
+						"node_id": "6e7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7979,7 +8006,8 @@
 						"outline": false,
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
 						"rotation": 0,
-						"node_id": "717"
+						"node_id": "717",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -7991,19 +8019,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "7ec"
-					},
-					{
-						"position": "Vector2( 0, 0 )",
-						"shape_rotation": 0,
-						"scale": "Vector2( 1, 1 )",
-						"points": "PoolVector2Array( 4608, 3840, 5120, 4352, 6144, 4352, 6656, 3840, 6144, 3840, 5888, 3584, 5376, 3584, 5120, 3840 )",
-						"layer": 200,
-						"color": "ffffffff",
-						"outline": false,
-						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
-						"rotation": 0,
-						"node_id": "ae1"
+						"node_id": "7ec",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -8015,7 +8032,21 @@
 						"outline": false,
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
 						"rotation": 0,
-						"node_id": "980"
+						"node_id": "980",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 0, 0 )",
+						"shape_rotation": 0,
+						"scale": "Vector2( 1, 1 )",
+						"points": "PoolVector2Array( 4608, 3840, 5120, 4352, 6144, 4352, 6656, 3840, 6144, 3840, 5888, 3584, 5376, 3584, 5120, 3840 )",
+						"layer": 300,
+						"color": "ffffffff",
+						"outline": false,
+						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
+						"rotation": 0,
+						"node_id": "ae1",
+						"locked": true
 					}
 				],
 				"walls": [
@@ -9063,9 +9094,7 @@
 					"disable_border": false
 				},
 				"materials": {
-					"-400": [
 
-					]
 				},
 				"paths": [
 					{
@@ -9083,7 +9112,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "aed"
+						"node_id": "aed",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 3328 )",
@@ -9100,7 +9130,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "aee"
+						"node_id": "aee",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 3072 )",
@@ -9117,7 +9148,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "aeb"
+						"node_id": "aeb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 731, 705 )",
@@ -9134,7 +9166,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7c9"
+						"node_id": "7c9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5234.08, 1160.79 )",
@@ -9151,7 +9184,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "79a"
+						"node_id": "79a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1152, 896 )",
@@ -9168,7 +9202,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7a7"
+						"node_id": "7a7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5458.28, 1226.26 )",
@@ -9185,7 +9220,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "772"
+						"node_id": "772",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 3840 )",
@@ -9202,7 +9238,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "72a"
+						"node_id": "72a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 4096 )",
@@ -9219,7 +9256,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "729"
+						"node_id": "729",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 3584 )",
@@ -9236,7 +9274,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "728"
+						"node_id": "728",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 2048 )",
@@ -9253,7 +9292,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "727"
+						"node_id": "727",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 1536 )",
@@ -9270,7 +9310,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "726"
+						"node_id": "726",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 1024 )",
@@ -9287,7 +9328,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "725"
+						"node_id": "725",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 1280 )",
@@ -9304,7 +9346,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "724"
+						"node_id": "724",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 2048 )",
@@ -9321,7 +9364,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "723"
+						"node_id": "723",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 2048 )",
@@ -9338,7 +9382,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "721"
+						"node_id": "721",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 3072 )",
@@ -9355,7 +9400,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "490"
+						"node_id": "490",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 3456 )",
@@ -9372,7 +9418,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "565"
+						"node_id": "565",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 1664 )",
@@ -9389,7 +9436,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "563"
+						"node_id": "563",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 2816 )",
@@ -9406,7 +9454,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "6f3"
+						"node_id": "6f3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 3840 )",
@@ -9423,7 +9472,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "6fd"
+						"node_id": "6fd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 4096 )",
@@ -9440,7 +9490,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "6fe"
+						"node_id": "6fe",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 3840 )",
@@ -9457,7 +9508,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "6ff"
+						"node_id": "6ff",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 4864 )",
@@ -9474,7 +9526,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "700"
+						"node_id": "700",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7424, 4608 )",
@@ -9491,7 +9544,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "701"
+						"node_id": "701",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 1280 )",
@@ -9508,7 +9562,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "702"
+						"node_id": "702",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 1280 )",
@@ -9525,7 +9580,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "703"
+						"node_id": "703",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 1280 )",
@@ -9542,7 +9598,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "704"
+						"node_id": "704",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 1280 )",
@@ -9559,7 +9616,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": true,
-						"node_id": "705"
+						"node_id": "705",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 3328 )",
@@ -9576,7 +9634,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "707"
+						"node_id": "707",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 1792 )",
@@ -9593,7 +9652,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "708"
+						"node_id": "708",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 1024 )",
@@ -9610,7 +9670,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "70a"
+						"node_id": "70a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 1280 )",
@@ -9627,7 +9688,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "70b"
+						"node_id": "70b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 3328 )",
@@ -9644,7 +9706,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "70d"
+						"node_id": "70d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1280, 1792 )",
@@ -9661,7 +9724,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "70e"
+						"node_id": "70e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4609.86, 2840.32 )",
@@ -9678,7 +9742,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7b4"
+						"node_id": "7b4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 639.238, 645.843 )",
@@ -9695,7 +9760,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7cb"
+						"node_id": "7cb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1277.24, 893.843 )",
@@ -9712,7 +9778,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7cd"
+						"node_id": "7cd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 2048 )",
@@ -9729,7 +9796,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7e6"
+						"node_id": "7e6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7424, 3072 )",
@@ -9746,7 +9814,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7e7"
+						"node_id": "7e7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 3072 )",
@@ -9763,7 +9832,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7e8"
+						"node_id": "7e8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7422.77, 1313.91 )",
@@ -9780,7 +9850,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7f1"
+						"node_id": "7f1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3584 )",
@@ -9797,7 +9868,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "7f4"
+						"node_id": "7f4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1304.13, 4126.56 )",
@@ -9814,7 +9886,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "922"
+						"node_id": "922",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7444, 1333.03 )",
@@ -9831,7 +9904,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "928"
+						"node_id": "928",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 4096 )",
@@ -9848,7 +9922,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "96f"
+						"node_id": "96f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 3840 )",
@@ -9865,7 +9940,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "972"
+						"node_id": "972",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 3328 )",
@@ -9882,7 +9958,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "973"
+						"node_id": "973",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3840, 4096 )",
@@ -9899,7 +9976,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "974"
+						"node_id": "974",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 4096 )",
@@ -9916,7 +9994,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "975"
+						"node_id": "975",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3840 )",
@@ -9933,7 +10012,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "976"
+						"node_id": "976",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 1280 )",
@@ -9950,7 +10030,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "977"
+						"node_id": "977",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 1024 )",
@@ -9967,7 +10048,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "978"
+						"node_id": "978",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3840, 1024 )",
@@ -9984,7 +10066,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "979"
+						"node_id": "979",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 1024 )",
@@ -10001,7 +10084,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "97a"
+						"node_id": "97a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5376, 1024 )",
@@ -10018,7 +10102,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "97b"
+						"node_id": "97b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 1792 )",
@@ -10035,7 +10120,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "97c"
+						"node_id": "97c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 2816 )",
@@ -10052,7 +10138,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "97f"
+						"node_id": "97f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 3840 )",
@@ -10069,7 +10156,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ae6"
+						"node_id": "ae6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3584 )",
@@ -10086,7 +10174,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ae9"
+						"node_id": "ae9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 2048 )",
@@ -10103,7 +10192,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "aec"
+						"node_id": "aec",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 3328 )",
@@ -10120,11 +10210,36 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "aef"
+						"node_id": "aef",
+						"locked": true
 					}
 				],
 				"objects": [
 					{
+						"position": "Vector2( 4911.51, 1906.17 )",
+						"rotation": 3.141593,
+						"scale": "Vector2( 0.9, 0.9 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/table_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce0",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5879.51, 1894.97 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/table_08.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce1",
+						"locked": true
+					},
+					{
 						"position": "Vector2( 6144, 4096 )",
 						"rotation": 0,
 						"scale": "Vector2( 1.3, 1.3 )",
@@ -10133,7 +10248,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "aff"
+						"node_id": "aff",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4096 )",
@@ -10144,7 +10260,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "afe"
+						"node_id": "afe",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 2816 )",
@@ -10155,7 +10272,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "afd"
+						"node_id": "afd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 2304 )",
@@ -10166,7 +10284,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "afc"
+						"node_id": "afc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6144, 4096 )",
@@ -10177,7 +10296,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "afb"
+						"node_id": "afb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4096 )",
@@ -10188,7 +10308,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "afa"
+						"node_id": "afa",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 2816 )",
@@ -10199,7 +10320,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "af9"
+						"node_id": "af9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 2304 )",
@@ -10210,7 +10332,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "af8"
+						"node_id": "af8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5853.01, 1202.37 )",
@@ -10221,7 +10344,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b9"
+						"node_id": "9b9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5805.01, 1263.17 )",
@@ -10232,7 +10356,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b8"
+						"node_id": "9b8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5523.41, 1256.77 )",
@@ -10243,7 +10368,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b7"
+						"node_id": "9b7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2662.61, 2133.57 )",
@@ -10254,7 +10380,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b6"
+						"node_id": "9b6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2662.61, 3055.17 )",
@@ -10265,7 +10392,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b5"
+						"node_id": "9b5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3165.01, 1106.37 )",
@@ -10276,7 +10404,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b4"
+						"node_id": "9b4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3027.41, 978.37 )",
@@ -10287,7 +10416,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b3"
+						"node_id": "9b3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5632.21, 4491.97 )",
@@ -10298,7 +10428,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b2"
+						"node_id": "9b2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5214.87, 979.969 )",
@@ -10309,7 +10440,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b1"
+						"node_id": "9b1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5069.54, 1121.3 )",
@@ -10320,7 +10452,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9b0"
+						"node_id": "9b0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4480, 3200 )",
@@ -10331,7 +10464,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9ae"
+						"node_id": "9ae",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4480, 2944 )",
@@ -10342,7 +10476,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9ad"
+						"node_id": "9ad",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4736, 2944 )",
@@ -10353,7 +10488,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9ac"
+						"node_id": "9ac",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4736, 3200 )",
@@ -10364,7 +10500,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9ab"
+						"node_id": "9ab",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 1920 )",
@@ -10375,7 +10512,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9a8"
+						"node_id": "9a8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 3200 )",
@@ -10386,7 +10524,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9a7"
+						"node_id": "9a7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 1920 )",
@@ -10397,7 +10536,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9a6"
+						"node_id": "9a6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 3200 )",
@@ -10408,7 +10548,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9a5"
+						"node_id": "9a5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 896 )",
@@ -10419,7 +10560,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "7b0"
+						"node_id": "7b0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 2048 )",
@@ -10430,7 +10572,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "75c"
+						"node_id": "75c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 3072 )",
@@ -10441,7 +10584,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "75d"
+						"node_id": "75d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5632, 4480 )",
@@ -10452,7 +10596,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "760"
+						"node_id": "760",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5647.22, 1203.26 )",
@@ -10463,7 +10608,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "76e"
+						"node_id": "76e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5461.62, 1520.26 )",
@@ -10474,7 +10620,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "776"
+						"node_id": "776",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5461.28, 1563.26 )",
@@ -10485,7 +10632,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "779"
+						"node_id": "779",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5462.28, 1563.59 )",
@@ -10496,7 +10644,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "77a"
+						"node_id": "77a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3082.68, 1044.72 )",
@@ -10507,7 +10656,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "790"
+						"node_id": "790",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5130.08, 1036.59 )",
@@ -10518,7 +10668,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "796"
+						"node_id": "796",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5289.31, 1520.22 )",
@@ -10529,7 +10680,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "79d"
+						"node_id": "79d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5292.31, 1566.22 )",
@@ -10540,7 +10692,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "79b"
+						"node_id": "79b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5289.31, 1568.22 )",
@@ -10551,7 +10704,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "79c"
+						"node_id": "79c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5629.81, 1112.72 )",
@@ -10562,7 +10716,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "79e"
+						"node_id": "79e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5493.81, 1149.72 )",
@@ -10573,7 +10728,8 @@
 						"layer": 400,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "79f"
+						"node_id": "79f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 896, 896 )",
@@ -10584,29 +10740,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "7af"
-					},
-					{
-						"position": "Vector2( 3003.2, 4672 )",
-						"rotation": -2.356194,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/xjCzavyl/textures/objects/toilet_04.png",
-						"layer": 100,
-						"shadow": false,
-						"block_light": false,
-						"node_id": "7f6"
-					},
-					{
-						"position": "Vector2( 3659.77, 4672.24 )",
-						"rotation": 2.356194,
-						"scale": "Vector2( 1, 1 )",
-						"mirror": false,
-						"texture": "res://packs/xjCzavyl/textures/objects/toilet_04.png",
-						"layer": 100,
-						"shadow": false,
-						"block_light": false,
-						"node_id": "7f7"
+						"node_id": "7af",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4446.4, 3070.4 )",
@@ -10617,7 +10752,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "818"
+						"node_id": "818",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 3200 )",
@@ -10628,7 +10764,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "981"
+						"node_id": "981",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 640, 1920 )",
@@ -10639,7 +10776,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "982"
+						"node_id": "982",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 4608 )",
@@ -10650,7 +10788,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "983"
+						"node_id": "983",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 4864 )",
@@ -10661,7 +10800,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "984"
+						"node_id": "984",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 4864 )",
@@ -10672,7 +10812,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "985"
+						"node_id": "985",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5376, 4864 )",
@@ -10683,7 +10824,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "986"
+						"node_id": "986",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 4864 )",
@@ -10694,7 +10836,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "987"
+						"node_id": "987",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608, 4608 )",
@@ -10705,7 +10848,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "988"
+						"node_id": "988",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 4352 )",
@@ -10716,7 +10860,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "989"
+						"node_id": "989",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 1920 )",
@@ -10727,7 +10872,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98a"
+						"node_id": "98a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 1920 )",
@@ -10738,7 +10884,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98b"
+						"node_id": "98b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 3200 )",
@@ -10749,7 +10896,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98c"
+						"node_id": "98c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3200 )",
@@ -10760,7 +10908,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98d"
+						"node_id": "98d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3328, 4608 )",
@@ -10771,7 +10920,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "98e"
+						"node_id": "98e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4783, 3064.61 )",
@@ -10783,7 +10933,1054 @@
 						"shadow": false,
 						"block_light": false,
 						"custom_color": "ff546d56",
-						"node_id": "a22"
+						"node_id": "a22",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 4558.98, 754.973 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/bed_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "c87"
+					},
+					{
+						"position": "Vector2( 5080.31, 514.973 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/bed_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff535869",
+						"node_id": "c88"
+					},
+					{
+						"position": "Vector2( 3104.31, 529.64 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/bed_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff667878",
+						"node_id": "c89"
+					},
+					{
+						"position": "Vector2( 3621.64, 770.973 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/bed_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff68887c",
+						"node_id": "c8a"
+					},
+					{
+						"position": "Vector2( 7036.98, 825.973 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Barrel_Simple_Wooden_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "c8b"
+					},
+					{
+						"position": "Vector2( 7168.98, 693.973 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Barrel_Simple_Wooden_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c8c"
+					},
+					{
+						"position": "Vector2( 5238.98, 3123.97 )",
+						"rotation": 1.832597,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Animal_Hide_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c8e"
+					},
+					{
+						"position": "Vector2( 5243.38, 1358.77 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bakery_Churn.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c90",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5764.98, 2377.97 )",
+						"rotation": -3.141591,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bar_Counter_Base.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff6b3834",
+						"node_id": "c91",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 6062.98, 2377.97 )",
+						"rotation": -3.141591,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bar_Counter_Corner_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c92",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 6054.98, 2237.97 )",
+						"rotation": -1.570795,
+						"scale": "Vector2( 0.8, -0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bar_Counter_Corner_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c93",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5468.98, 2375.97 )",
+						"rotation": -1.570795,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bar_Counter_Corner_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c94",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 7334.98, 765.173 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Barrel_Simple_Closed.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c96"
+					},
+					{
+						"position": "Vector2( 7304.18, 619.973 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Barrel_Small_Simple.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c97"
+					},
+					{
+						"position": "Vector2( 7200.58, 878.773 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Basket_Large_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c98"
+					},
+					{
+						"position": "Vector2( 7010.98, 817.573 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c99"
+					},
+					{
+						"position": "Vector2( 5642.58, 2336.37 )",
+						"rotation": -2.879791,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9a"
+					},
+					{
+						"position": "Vector2( 5661.38, 2370.77 )",
+						"rotation": -2.879791,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9b"
+					},
+					{
+						"position": "Vector2( 5618.58, 2373.17 )",
+						"rotation": -2.879791,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_06.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9e"
+					},
+					{
+						"position": "Vector2( 5873.78, 1123.57 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9f",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 7446.98, 1501.97 )",
+						"rotation": -1.832596,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Cart_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca0"
+					},
+					{
+						"position": "Vector2( 5211.64, 2840.31 )",
+						"rotation": 0.000002,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chair_Large_Sofa_0c.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "ca1"
+					},
+					{
+						"position": "Vector2( 5227.65, 3341.64 )",
+						"rotation": -3.141591,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chair_Large_Sofa_0c.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "ca2"
+					},
+					{
+						"position": "Vector2( 5530.31, 3088.31 )",
+						"rotation": 1.570798,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chair_Sofa_0c.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "ca3"
+					},
+					{
+						"position": "Vector2( 5643.7, 1222.24 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chicken_Whole.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "ca4",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 7316.44, 1146.97 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Crate_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca5"
+					},
+					{
+						"position": "Vector2( 7486.04, 1044.31 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Crate_Large_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca6"
+					},
+					{
+						"position": "Vector2( 7404.98, 1126.71 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Crate_Mid_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca7"
+					},
+					{
+						"position": "Vector2( 7412.71, 1114.44 )",
+						"rotation": -1.832596,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Crate_Open_Contents_Potatoes.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca8"
+					},
+					{
+						"position": "Vector2( 7439.64, 1456.31 )",
+						"rotation": -1.832596,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Crate_Open_Contents_Fish.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ca9"
+					},
+					{
+						"position": "Vector2( 7419.64, 865.64 )",
+						"rotation": -1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Fish_Net_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "caa"
+					},
+					{
+						"position": "Vector2( 6887.38, 2325.07 )",
+						"rotation": 2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Floor_Globe_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cab"
+					},
+					{
+						"position": "Vector2( 4736.18, 1905.64 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Bread_Roll_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cac"
+					},
+					{
+						"position": "Vector2( 4999.64, 1948.57 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Ham_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cad"
+					},
+					{
+						"position": "Vector2( 5068.44, 1955.77 )",
+						"rotation": 0.523599,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Cheese_Wheel.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cae"
+					},
+					{
+						"position": "Vector2( 7282.31, 1494.97 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Rack_Bread.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb0"
+					},
+					{
+						"position": "Vector2( 7462.31, 1578.97 )",
+						"rotation": 2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Pumpkin.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb1"
+					},
+					{
+						"position": "Vector2( 5843.64, 1798.31 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Paper_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cb2",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 7592.97, 944.974 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Pot_Closed_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb3"
+					},
+					{
+						"position": "Vector2( 7499.64, 1054.31 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Sack_Open_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb4"
+					},
+					{
+						"position": "Vector2( 7360.97, 1611.64 )",
+						"rotation": 1.047198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Sack_Tied_Slanted_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb5"
+					},
+					{
+						"position": "Vector2( 7240.97, 1619.64 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Sack_Tied_Upright_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb6"
+					},
+					{
+						"position": "Vector2( 7576.97, 792.974 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Sack_Tied_Slanted_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb7"
+					},
+					{
+						"position": "Vector2( 7531.64, 856.974 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Sack_Tied_Upright_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb8"
+					},
+					{
+						"position": "Vector2( 3643.64, 4662.31 )",
+						"rotation": 2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Toilet_03.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cb9",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 3022.31, 4672.97 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Toilet_04.png",
+						"layer": 100,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cba",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 7598.31, 4328.97 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/chest_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cbb"
+					},
+					{
+						"position": "Vector2( 4731.64, 1978.57 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/pie_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cbd"
+					},
+					{
+						"position": "Vector2( 7467.64, 739.641 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/sack_18.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cbe"
+					},
+					{
+						"position": "Vector2( 5795.64, 1932.71 )",
+						"rotation": 1.570799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/vegetables_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cc0",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 6002.57, 1930.04 )",
+						"rotation": -2.356198,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/vegetables_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cc2",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5966.84, 1257.51 )",
+						"rotation": 0.261799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/barrel_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cc3",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 4811.64, 1965.77 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/cask_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cc4"
+					},
+					{
+						"position": "Vector2( 6165.54, 3150.87 )",
+						"rotation": -1.832593,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cc5"
+					},
+					{
+						"position": "Vector2( 6159.54, 2895.54 )",
+						"rotation": -1.570794,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cc6"
+					},
+					{
+						"position": "Vector2( 6328.87, 2689.54 )",
+						"rotation": 0.000002,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cc7"
+					},
+					{
+						"position": "Vector2( 6523.54, 2884.88 )",
+						"rotation": 1.308999,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cc8"
+					},
+					{
+						"position": "Vector2( 6525.54, 3136.21 )",
+						"rotation": 1.832598,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cc9"
+					},
+					{
+						"position": "Vector2( 6358.87, 3304.87 )",
+						"rotation": 2.879796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/chair_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cca"
+					},
+					{
+						"position": "Vector2( 7390.31, 3966.31 )",
+						"rotation": -2.094395,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/crate_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "ccb"
+					},
+					{
+						"position": "Vector2( 7502.31, 4072.97 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/crate_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ccc"
+					},
+					{
+						"position": "Vector2( 7451.64, 4022.31 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/crate_09.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ccd"
+					},
+					{
+						"position": "Vector2( 7178.57, 686.841 )",
+						"rotation": 2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/food_basket_05.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cce"
+					},
+					{
+						"position": "Vector2( 7304.97, 613.775 )",
+						"rotation": 2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/food_basket_04.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ccf"
+					},
+					{
+						"position": "Vector2( 6336.87, 2998.21 )",
+						"rotation": 1.570799,
+						"scale": "Vector2( 1.1, 1.1 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/table_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd0"
+					},
+					{
+						"position": "Vector2( 6326.21, 2995.54 )",
+						"rotation": 1.570799,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/table_details_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cd1"
+					},
+					{
+						"position": "Vector2( 5922.57, 1955.64 )",
+						"rotation": 0.261799,
+						"scale": "Vector2( 0.6, 0.6 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/vegetables_18.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cd2",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5238.31, 3106.97 )",
+						"rotation": -0,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Table_Coffee_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd3"
+					},
+					{
+						"position": "Vector2( 5299.64, 3110.97 )",
+						"rotation": 0.5236,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Food_Plate_Cookies.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "caf"
+					},
+					{
+						"position": "Vector2( 5216.98, 3081.97 )",
+						"rotation": -2.879791,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_05.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9d"
+					},
+					{
+						"position": "Vector2( 5501.78, 2349.17 )",
+						"rotation": -2.879791,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_04.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c9c"
+					},
+					{
+						"position": "Vector2( 6049.21, 2365.53 )",
+						"rotation": 2.443459,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Barrel_Small_Side.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "c8d"
+					},
+					{
+						"position": "Vector2( 6818.31, 3127.24 )",
+						"rotation": 1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Lantern_Wall_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd4"
+					},
+					{
+						"position": "Vector2( 6071.11, 2143.24 )",
+						"rotation": 0,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Lantern_Wall_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd5"
+					},
+					{
+						"position": "Vector2( 6975.11, 2231.24 )",
+						"rotation": 0.785398,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Lantern_Wall_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd6"
+					},
+					{
+						"position": "Vector2( 4650.31, 3412.04 )",
+						"rotation": -0.785398,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Lantern_Wall_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd7"
+					},
+					{
+						"position": "Vector2( 5968.71, 3544.84 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Lantern_Wall_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd8"
+					},
+					{
+						"position": "Vector2( 6336.71, 2898.44 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/lantern_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cd9"
+					},
+					{
+						"position": "Vector2( 6333.51, 3056.84 )",
+						"rotation": -2.356194,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/lantern_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cda"
+					},
+					{
+						"position": "Vector2( 928.712, 2282.44 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bell_Swing_2.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"custom_color": "ff546d56",
+						"node_id": "cdb"
+					},
+					{
+						"position": "Vector2( 6401.78, 2945.91 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chandelier_01.png",
+						"layer": 300,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cde",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5377.78, 2925.24 )",
+						"rotation": -3.141593,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Chandelier_01.png",
+						"layer": 300,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cdf",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5849.11, 1242.17 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Pan_Metal_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce2",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5898.71, 1835.77 )",
+						"rotation": -1.570796,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/cutting_board_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce3",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5873.11, 1837.37 )",
+						"rotation": 2.617994,
+						"scale": "Vector2( 0.7, 0.7 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/knife_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce5",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 4911.51, 1848.57 )",
+						"rotation": -1.308997,
+						"scale": "Vector2( 1, 1 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/cutting_board_01.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce7"
+					},
+					{
+						"position": "Vector2( 4879.51, 1835.77 )",
+						"rotation": 2.094395,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/BYcn0rLD/textures/objects/knife_02.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce4"
+					},
+					{
+						"position": "Vector2( 5930.57, 1846.58 )",
+						"rotation": 1.570799,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/vegetables_carrot.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cbf",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5829.03, 1929.18 )",
+						"rotation": 2.617997,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/xjCzavyl/textures/objects/vegetables_03.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "cc1",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5826.43, 1124.08 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce8",
+						"locked": true
+					},
+					{
+						"position": "Vector2( 5778.43, 1122.48 )",
+						"rotation": -2.879793,
+						"scale": "Vector2( 0.8, 0.8 )",
+						"mirror": false,
+						"texture": "res://packs/DZw7eElc/textures/objects/Bottle_Top_07.png",
+						"layer": 200,
+						"shadow": false,
+						"block_light": false,
+						"node_id": "ce9",
+						"locked": true
 					}
 				],
 				"lights": [
@@ -10802,7 +11999,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 153.600006,
 							"type": 0,
-							"node_id": "9d3"
+							"node_id": "9d3",
+							"locked": true
 						},
 						{
 							"position": "Vector2( 0, 0 )",
@@ -10812,7 +12010,8 @@
 							"texture": "res://packs/4UcCbKRJ/textures/roofs/flat_clay_lblue/tiles.png",
 							"width": 153.600006,
 							"type": 0,
-							"node_id": "9d6"
+							"node_id": "9d6",
+							"locked": true
 						}
 					]
 				},
@@ -11489,43 +12688,12 @@
 						"ffffffff"
 					],
 					"lookup": {
-						"0": "res://textures/tilesets/smart/tileset_wood_vertical.png",
-						"1": "res://textures/tilesets/smart_double/tileset_stone.png",
-						"2": "res://textures/tilesets/simple/tileset_brick_basketweave.png",
-						"3": "res://textures/tilesets/simple/tileset_brick_running.png",
-						"4": "res://textures/tilesets/simple/tileset_brick_worn.png",
-						"5": "res://textures/tilesets/simple/tileset_carpet.png",
-						"6": "res://textures/tilesets/simple/tileset_cave.png",
-						"7": "res://textures/tilesets/simple/tileset_cobble.png",
-						"8": "res://textures/tilesets/simple/tileset_concrete.png",
-						"9": "res://textures/tilesets/simple/tileset_concrete_large.png",
-						"10": "res://textures/tilesets/simple/tileset_concrete_slab.png",
-						"11": "res://textures/tilesets/simple/tileset_cut_stone.png",
-						"12": "res://textures/tilesets/simple/tileset_diamond.png",
-						"13": "res://textures/tilesets/simple/tileset_diamond_2.png",
-						"14": "res://textures/tilesets/simple/tileset_herringbone.png",
-						"15": "res://textures/tilesets/simple/tileset_ornate.png",
-						"16": "res://textures/tilesets/simple/tileset_plank_45.png",
-						"17": "res://textures/tilesets/simple/tileset_roman_tiles.png",
-						"18": "res://textures/tilesets/simple/tileset_roman_worn.png",
-						"19": "res://textures/tilesets/simple/tileset_sewers.png",
-						"20": "res://textures/tilesets/simple/tileset_straw.png",
-						"21": "res://textures/tilesets/simple/tileset_wood_damaged.png",
-						"22": "res://textures/tilesets/simple/tileset_wood_interlaced.png",
-						"23": "res://textures/tilesets/simple/tileset_worn_cobble.png",
-						"24": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
-						"25": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
-						"26": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
-						"27": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
-						"28": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
-						"29": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png",
-						"30": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone.png",
-						"31": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_cracked.png",
-						"32": "res://packs/xjCzavyl/textures/tilesets/simple/ch_stone_tiled.png",
-						"33": "res://packs/xjCzavyl/textures/tilesets/simple/ch_tiles.png",
-						"34": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood.png",
-						"35": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_dark.png",
-						"36": "res://packs/xjCzavyl/textures/tilesets/simple/ch_wood_interlaced.png"
+						"0": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone_ruins.png",
+						"1": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood.png",
+						"2": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
+						"3": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_broken.png",
+						"4": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark.png",
+						"5": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_wood_dark_broken.png"
 					}
 				},
 				"patterns": [
@@ -11539,7 +12707,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "1a"
+						"node_id": "1a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11551,7 +12720,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "39"
+						"node_id": "39",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11563,7 +12733,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "36"
+						"node_id": "36",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 190.562, 190.463 )",
@@ -11575,7 +12746,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "32"
+						"node_id": "32",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11587,7 +12759,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "2c"
+						"node_id": "2c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11599,7 +12772,8 @@
 						"outline": false,
 						"texture": "res://packs/BYcn0rLD/textures/patterns/normal/ch_tiles.png",
 						"rotation": 0,
-						"node_id": "161"
+						"node_id": "161",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11611,7 +12785,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "14"
+						"node_id": "14",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11623,7 +12798,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "15"
+						"node_id": "15",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11635,7 +12811,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "16"
+						"node_id": "16",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11647,7 +12824,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "17"
+						"node_id": "17",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11659,7 +12837,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "18"
+						"node_id": "18",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11671,7 +12850,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "19"
+						"node_id": "19",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11683,7 +12863,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "23"
+						"node_id": "23",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11695,7 +12876,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "24"
+						"node_id": "24",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11707,7 +12889,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "25"
+						"node_id": "25",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11719,7 +12902,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "26"
+						"node_id": "26",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11731,7 +12915,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "27"
+						"node_id": "27",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11743,7 +12928,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "28"
+						"node_id": "28",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11755,7 +12941,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "29"
+						"node_id": "29",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11767,7 +12954,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "2a"
+						"node_id": "2a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11779,7 +12967,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "2b"
+						"node_id": "2b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11791,7 +12980,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "2d"
+						"node_id": "2d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11803,7 +12993,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "2e"
+						"node_id": "2e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11815,7 +13006,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "30"
+						"node_id": "30",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11827,7 +13019,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "31"
+						"node_id": "31",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11839,7 +13032,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "37"
+						"node_id": "37",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11851,7 +13045,8 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "35"
+						"node_id": "35",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11863,7 +13058,8 @@
 						"outline": false,
 						"texture": "res://packs/XpMDQfBe/textures/patterns/normal/Shadow25.png",
 						"rotation": 0,
-						"node_id": "a0f"
+						"node_id": "a0f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 0, 0 )",
@@ -11875,13 +13071,14 @@
 						"outline": false,
 						"texture": "res://packs/4UcCbKRJ/textures/tilesets/simple/ch_stone.png",
 						"rotation": 0,
-						"node_id": "3cc"
+						"node_id": "3cc",
+						"locked": true
 					}
 				],
 				"walls": [
 					{
 						"points": "PoolVector2Array( 5888, 1792, 5120, 1792 )",
-						"texture": "res://textures/walls/wood_02.png",
+						"texture": "res://textures/walls/wood.png",
 						"color": "ff939393",
 						"loop": false,
 						"type": 1,
@@ -11906,7 +13103,7 @@
 					},
 					{
 						"points": "PoolVector2Array( 5120, 1024, 5888, 1024 )",
-						"texture": "res://textures/walls/wood_02.png",
+						"texture": "res://textures/walls/wood.png",
 						"color": "ff939393",
 						"loop": false,
 						"type": 1,
@@ -12271,7 +13468,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1b8"
+						"node_id": "1b8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 927.127, 3074.14 )",
@@ -12283,7 +13481,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1ba"
+						"node_id": "1ba",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1188.13, 1536.14 )",
@@ -12295,7 +13494,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1bb"
+						"node_id": "1bb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1151.13, 1787.14 )",
@@ -12307,7 +13507,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1bc"
+						"node_id": "1bc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1536, 896 )",
@@ -12319,7 +13520,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1bd"
+						"node_id": "1bd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5116.66, 1446.07 )",
@@ -12331,7 +13533,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1c2"
+						"node_id": "1c2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5125.66, 2688.07 )",
@@ -12343,7 +13546,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1c3"
+						"node_id": "1c3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5128.33, 2433.13 )",
@@ -12355,7 +13559,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "1c4"
+						"node_id": "1c4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5117.35, 3488.37 )",
@@ -12367,7 +13572,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "3c3"
+						"node_id": "3c3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6785.22, 3334.9 )",
@@ -12379,7 +13585,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "3c7"
+						"node_id": "3c7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7171.32, 3678.17 )",
@@ -12391,7 +13598,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "433"
+						"node_id": "433",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2653.08, 4641.51 )",
@@ -12403,7 +13611,8 @@
 						"wall_id": "ffffffff",
 						"wall_distance": 0,
 						"closed": true,
-						"node_id": "c80"
+						"node_id": "c80",
+						"locked": true
 					}
 				],
 				"cave": {
@@ -12426,7 +13635,7 @@
 				"water": {
 					"disable_border": true,
 					"tree": {
-						"ref": 325718662,
+						"ref": -1093072570,
 						"polygon": "PoolVector2Array(  )",
 						"join": 0,
 						"end": 0,
@@ -12436,7 +13645,7 @@
 						"blend_distance": 0,
 						"children": [
 							{
-								"ref": -1446518010,
+								"ref": 1602246278,
 								"polygon": "PoolVector2Array( 5888, 4096, 5120, 4096, 5120, 3584, 5888, 3584 )",
 								"join": 0,
 								"end": 0,
@@ -12476,7 +13685,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b10"
+						"node_id": "b10",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5851.81, 4064.43 )",
@@ -12493,7 +13703,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b0f"
+						"node_id": "b0f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5150.81, 4064.43 )",
@@ -12510,7 +13721,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b0e"
+						"node_id": "b0e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1121.07, 636.638 )",
@@ -12527,7 +13739,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a10"
+						"node_id": "a10",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 901.113, 1012.17 )",
@@ -12544,7 +13757,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a0e"
+						"node_id": "a0e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1536, 512 )",
@@ -12561,7 +13775,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a08"
+						"node_id": "a08",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 787.711, 832.038 )",
@@ -12578,7 +13793,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a00"
+						"node_id": "a00",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7296, 3584 )",
@@ -12595,7 +13811,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "479"
+						"node_id": "479",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3712 )",
@@ -12612,7 +13829,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3e4"
+						"node_id": "3e4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 1920 )",
@@ -12629,7 +13847,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3e3"
+						"node_id": "3e3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2062.03, 2786.07 )",
@@ -12646,7 +13865,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "471"
+						"node_id": "471",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2481.36, 2046.74 )",
@@ -12663,7 +13883,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "470"
+						"node_id": "470",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2541.36, 2332.74 )",
@@ -12680,7 +13901,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "46e"
+						"node_id": "46e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2688, 1024 )",
@@ -12697,7 +13919,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3e2"
+						"node_id": "3e2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2304, 1536 )",
@@ -12714,7 +13937,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3bf"
+						"node_id": "3bf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2841.49, 1529.7 )",
@@ -12731,7 +13955,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b0"
+						"node_id": "3b0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3283.49, 4787.7 )",
@@ -12748,7 +13973,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3af"
+						"node_id": "3af",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7040, 3328 )",
@@ -12765,7 +13991,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a3"
+						"node_id": "a3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7040, 4352 )",
@@ -12782,7 +14009,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a4"
+						"node_id": "a4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6528, 3584 )",
@@ -12799,7 +14027,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a6"
+						"node_id": "a6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6528, 4096 )",
@@ -12816,7 +14045,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "a7"
+						"node_id": "a7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 4352 )",
@@ -12833,7 +14063,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b4"
+						"node_id": "b4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 3328 )",
@@ -12850,7 +14081,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b6"
+						"node_id": "b6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 3328 )",
@@ -12867,7 +14099,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b7"
+						"node_id": "b7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6656, 4096 )",
@@ -12884,7 +14117,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "b9"
+						"node_id": "b9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 4352 )",
@@ -12901,7 +14135,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ba"
+						"node_id": "ba",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 3584 )",
@@ -12918,7 +14153,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "bb"
+						"node_id": "bb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 4352 )",
@@ -12935,7 +14171,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "bc"
+						"node_id": "bc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4608 )",
@@ -12952,7 +14189,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "bd"
+						"node_id": "bd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 4608 )",
@@ -12969,7 +14207,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "be"
+						"node_id": "be",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4608 )",
@@ -12986,7 +14225,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "bf"
+						"node_id": "bf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 3072 )",
@@ -13003,7 +14243,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c0"
+						"node_id": "c0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 3072 )",
@@ -13020,7 +14261,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c2"
+						"node_id": "c2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 4352 )",
@@ -13037,7 +14279,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c5"
+						"node_id": "c5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 4608 )",
@@ -13054,7 +14297,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c6"
+						"node_id": "c6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 4608 )",
@@ -13071,7 +14315,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c7"
+						"node_id": "c7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 3072 )",
@@ -13088,7 +14333,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c8"
+						"node_id": "c8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6400, 3072 )",
@@ -13105,7 +14351,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c9"
+						"node_id": "c9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6912, 3072 )",
@@ -13122,7 +14369,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ca"
+						"node_id": "ca",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 2816 )",
@@ -13139,7 +14387,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "cb"
+						"node_id": "cb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 2304 )",
@@ -13156,7 +14405,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "cc"
+						"node_id": "cc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 2304 )",
@@ -13173,7 +14423,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "cd"
+						"node_id": "cd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 2304 )",
@@ -13190,7 +14441,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ce"
+						"node_id": "ce",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 512 )",
@@ -13207,7 +14459,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "cf"
+						"node_id": "cf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 512 )",
@@ -13224,7 +14477,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d0"
+						"node_id": "d0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 1280 )",
@@ -13241,7 +14495,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d1"
+						"node_id": "d1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 512 )",
@@ -13258,7 +14513,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d3"
+						"node_id": "d3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 512 )",
@@ -13275,7 +14531,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d4"
+						"node_id": "d4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 2816 )",
@@ -13292,7 +14549,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d5"
+						"node_id": "d5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 1280 )",
@@ -13309,7 +14567,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d6"
+						"node_id": "d6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 1280 )",
@@ -13326,7 +14585,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d8"
+						"node_id": "d8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 512 )",
@@ -13343,7 +14603,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "d9"
+						"node_id": "d9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4352, 512 )",
@@ -13360,7 +14621,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "da"
+						"node_id": "da",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 512 )",
@@ -13377,7 +14639,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "db"
+						"node_id": "db",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3840, 1280 )",
@@ -13394,7 +14657,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "e2"
+						"node_id": "e2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1536, 1280 )",
@@ -13411,7 +14675,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "ef"
+						"node_id": "ef",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 1280 )",
@@ -13428,7 +14693,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f0"
+						"node_id": "f0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 512 )",
@@ -13445,7 +14711,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f1"
+						"node_id": "f1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1536, 512 )",
@@ -13462,7 +14729,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f2"
+						"node_id": "f2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 768 )",
@@ -13479,7 +14747,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f4"
+						"node_id": "f4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 1536 )",
@@ -13496,7 +14765,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f5"
+						"node_id": "f5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1536, 1536 )",
@@ -13513,7 +14783,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "f6"
+						"node_id": "f6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 1792 )",
@@ -13530,7 +14801,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "fe"
+						"node_id": "fe",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3072 )",
@@ -13547,7 +14819,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "100"
+						"node_id": "100",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 3072 )",
@@ -13564,7 +14837,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "101"
+						"node_id": "101",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 1792 )",
@@ -13581,7 +14855,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "102"
+						"node_id": "102",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 3840 )",
@@ -13598,7 +14873,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "135"
+						"node_id": "135",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 512, 4608 )",
@@ -13615,7 +14891,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "136"
+						"node_id": "136",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 4608 )",
@@ -13632,7 +14909,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "137"
+						"node_id": "137",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3840 )",
@@ -13649,7 +14927,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "138"
+						"node_id": "138",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 512 )",
@@ -13666,7 +14945,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "139"
+						"node_id": "139",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 4096 )",
@@ -13683,7 +14963,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "13c"
+						"node_id": "13c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 4096 )",
@@ -13700,7 +14981,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "13d"
+						"node_id": "13d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 3328 )",
@@ -13717,7 +14999,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "13e"
+						"node_id": "13e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4864, 3072 )",
@@ -13734,7 +15017,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "13f"
+						"node_id": "13f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 3072 )",
@@ -13751,7 +15035,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "140"
+						"node_id": "140",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 1792 )",
@@ -13768,7 +15053,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "141"
+						"node_id": "141",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2048, 2048 )",
@@ -13785,7 +15071,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "142"
+						"node_id": "142",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 1536 )",
@@ -13802,7 +15089,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "145"
+						"node_id": "145",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 3072 )",
@@ -13819,7 +15107,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "146"
+						"node_id": "146",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 768, 3840 )",
@@ -13836,7 +15125,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "147"
+						"node_id": "147",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1792, 3584 )",
@@ -13853,7 +15143,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "148"
+						"node_id": "148",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1024, 3072 )",
@@ -13870,7 +15161,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "149"
+						"node_id": "149",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 512 )",
@@ -13887,7 +15179,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "14b"
+						"node_id": "14b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2560, 1280 )",
@@ -13904,7 +15197,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "14c"
+						"node_id": "14c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 1280 )",
@@ -13921,7 +15215,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "14d"
+						"node_id": "14d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 512 )",
@@ -13938,7 +15233,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "14e"
+						"node_id": "14e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3584, 4096 )",
@@ -13955,7 +15251,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "14f"
+						"node_id": "14f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3840, 4608 )",
@@ -13972,7 +15269,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "150"
+						"node_id": "150",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4608 )",
@@ -13989,7 +15287,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "151"
+						"node_id": "151",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4352 )",
@@ -14006,7 +15305,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "152"
+						"node_id": "152",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 3840 )",
@@ -14023,7 +15323,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "159"
+						"node_id": "159",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 4096 )",
@@ -14040,7 +15341,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "15b"
+						"node_id": "15b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 4096 )",
@@ -14057,7 +15359,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "15c"
+						"node_id": "15c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5888, 3584 )",
@@ -14074,7 +15377,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "15d"
+						"node_id": "15d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5120, 3584 )",
@@ -14091,7 +15395,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "15e"
+						"node_id": "15e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3005.42, 1513.76 )",
@@ -14108,7 +15413,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3a0"
+						"node_id": "3a0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3005.42, 4632.16 )",
@@ -14125,7 +15431,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3a2"
+						"node_id": "3a2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2923.89, 1513.97 )",
@@ -14142,7 +15449,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b2"
+						"node_id": "3b2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1819.22, 3916.37 )",
@@ -14159,7 +15467,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b3"
+						"node_id": "3b3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2565.89, 5119.03 )",
@@ -14176,7 +15485,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b4"
+						"node_id": "3b4",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4096, 3840 )",
@@ -14193,7 +15503,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b6"
+						"node_id": "3b6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2816, 1280 )",
@@ -14210,7 +15521,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "3b8"
+						"node_id": "3b8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7168, 2816 )",
@@ -14227,7 +15539,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "47e"
+						"node_id": "47e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 7424, 3840 )",
@@ -14244,7 +15557,8 @@
 						"shrink": true,
 						"block_light": false,
 						"loop": false,
-						"node_id": "481"
+						"node_id": "481",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 725.478, 710.581 )",
@@ -14261,7 +15575,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "9df"
+						"node_id": "9df",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2175.13, 5137.67 )",
@@ -14278,7 +15593,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c78"
+						"node_id": "c78",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1743.13, 3575 )",
@@ -14295,7 +15611,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c79"
+						"node_id": "c79",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2481.8, 1777.67 )",
@@ -14312,7 +15629,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c7a"
+						"node_id": "c7a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3639.13, 1281.67 )",
@@ -14329,7 +15647,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c7b"
+						"node_id": "c7b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3609.8, 4103 )",
@@ -14346,7 +15665,8 @@
 						"shrink": false,
 						"block_light": false,
 						"loop": false,
-						"node_id": "c7c"
+						"node_id": "c7c",
+						"locked": true
 					}
 				],
 				"objects": [
@@ -14359,7 +15679,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "a0d"
+						"node_id": "a0d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3085.65, 2482.5 )",
@@ -14370,7 +15691,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "432"
+						"node_id": "432",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2821.65, 2394.5 )",
@@ -14381,7 +15703,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "431"
+						"node_id": "431",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2845.65, 2487.84 )",
@@ -14392,7 +15715,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "430"
+						"node_id": "430",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3050.98, 2351.84 )",
@@ -14403,7 +15727,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42f"
+						"node_id": "42f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2962.98, 2527.84 )",
@@ -14414,7 +15739,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42e"
+						"node_id": "42e",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3029.65, 4069.17 )",
@@ -14425,7 +15751,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42d"
+						"node_id": "42d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2880.32, 3895.84 )",
@@ -14436,7 +15763,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42c"
+						"node_id": "42c",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3200.32, 2533.17 )",
@@ -14447,7 +15775,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42b"
+						"node_id": "42b",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3181.65, 2333.17 )",
@@ -14458,7 +15787,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "42a"
+						"node_id": "42a",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2746.98, 2327.84 )",
@@ -14469,7 +15799,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "429"
+						"node_id": "429",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2752.32, 2519.84 )",
@@ -14480,7 +15811,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "428"
+						"node_id": "428",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3192.32, 4079.84 )",
@@ -14491,7 +15823,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "427"
+						"node_id": "427",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3189.65, 3879.84 )",
@@ -14502,7 +15835,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "426"
+						"node_id": "426",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2752.32, 4079.84 )",
@@ -14513,7 +15847,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "425"
+						"node_id": "425",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2749.65, 3885.17 )",
@@ -14524,7 +15859,8 @@
 						"layer": 100,
 						"shadow": true,
 						"block_light": false,
-						"node_id": "424"
+						"node_id": "424",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4614.72, 2724.64 )",
@@ -14535,7 +15871,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3f9"
+						"node_id": "3f9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6153.52, 2387.84 )",
@@ -14546,7 +15883,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3f8"
+						"node_id": "3f8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3913.92, 4542.24 )",
@@ -14557,7 +15895,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3f5"
+						"node_id": "3f5",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4182.72, 3585.44 )",
@@ -14568,7 +15907,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3f2"
+						"node_id": "3f2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6781.12, 3159.84 )",
@@ -14579,7 +15919,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3ef"
+						"node_id": "3ef",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 6784.32, 4510.24 )",
@@ -14590,7 +15931,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3ee"
+						"node_id": "3ee",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5510.72, 3156.64 )",
@@ -14601,7 +15943,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3ed"
+						"node_id": "3ed",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5504.32, 4516.64 )",
@@ -14612,7 +15955,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3ec"
+						"node_id": "3ec",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2976.05, 3979.84 )",
@@ -14623,7 +15967,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3cd"
+						"node_id": "3cd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2746.72, 3881.17 )",
@@ -14634,7 +15979,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3ce"
+						"node_id": "3ce",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2898.72, 3875.84 )",
@@ -14645,7 +15991,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3cf"
+						"node_id": "3cf",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3194.72, 3889.17 )",
@@ -14656,7 +16003,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d0"
+						"node_id": "3d0",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3200.05, 4073.17 )",
@@ -14667,7 +16015,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d1"
+						"node_id": "3d1",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2754.72, 4075.84 )",
@@ -14678,7 +16027,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d2"
+						"node_id": "3d2",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3037.39, 4081.17 )",
@@ -14689,7 +16039,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d3"
+						"node_id": "3d3",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2973.39, 2430.51 )",
@@ -14700,7 +16051,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d6"
+						"node_id": "3d6",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2749.39, 2334.51 )",
@@ -14711,7 +16063,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d7"
+						"node_id": "3d7",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2749.39, 2526.51 )",
@@ -14722,7 +16075,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d8"
+						"node_id": "3d8",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3192.05, 2342.51 )",
@@ -14733,7 +16087,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3d9"
+						"node_id": "3d9",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3197.39, 2526.51 )",
@@ -14744,7 +16099,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3da"
+						"node_id": "3da",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3026.72, 2329.17 )",
@@ -14755,7 +16111,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3db"
+						"node_id": "3db",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2968.05, 2529.17 )",
@@ -14766,7 +16123,8 @@
 						"layer": 200,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3dc"
+						"node_id": "3dc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4608.32, 1367.84 )",
@@ -14777,7 +16135,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3fb"
+						"node_id": "3fb",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 5805.12, 1403.04 )",
@@ -14788,7 +16147,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3fd"
+						"node_id": "3fd",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 4614.72, 593.439 )",
@@ -14799,7 +16159,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "3fe"
+						"node_id": "3fe",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3340.72, 596.239 )",
@@ -14810,7 +16171,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "400"
+						"node_id": "400",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2054.72, 593.439 )",
@@ -14821,7 +16183,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "402"
+						"node_id": "402",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1702.72, 2439.84 )",
@@ -14832,7 +16195,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "407"
+						"node_id": "407",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 598.719, 2439.84 )",
@@ -14843,7 +16207,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "408"
+						"node_id": "408",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 1149.12, 4523.04 )",
@@ -14854,7 +16219,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "40d"
+						"node_id": "40d",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2121.92, 1972.64 )",
@@ -14865,7 +16231,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "40f"
+						"node_id": "40f",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3776.32, 1873.44 )",
@@ -14876,7 +16243,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "410"
+						"node_id": "410",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 3465.92, 2977.44 )",
@@ -14887,7 +16255,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "411"
+						"node_id": "411",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2659.52, 4238.24 )",
@@ -14898,7 +16267,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "413"
+						"node_id": "413",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 2144.32, 3249.44 )",
@@ -14909,7 +16279,8 @@
 						"layer": 100,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "415"
+						"node_id": "415",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 890.478, 901.581 )",
@@ -14920,7 +16291,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9dc"
+						"node_id": "9dc",
+						"locked": true
 					},
 					{
 						"position": "Vector2( 890.478, 901.581 )",
@@ -14931,7 +16303,8 @@
 						"layer": 700,
 						"shadow": false,
 						"block_light": false,
-						"node_id": "9dd"
+						"node_id": "9dd",
+						"locked": true
 					}
 				],
 				"lights": [
