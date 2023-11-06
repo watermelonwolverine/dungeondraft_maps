@@ -1,0 +1,24 @@
+# Contents
+- This asset pack contains 
+  - Some modified assets taken from the Crosshead v1 asset pack.
+  - Some utility terrains
+
+It contains:
+
+Materials:
+- Cave borderless (Doesn't work atm)
+- Lava borderless (Doesn't work atm)
+
+Paths:
+- Cave border (from Crosshead's Cave material brush)
+- Lava border (from Crosshead's Lava material brush)
+
+Terrains:
+- Cave (from Crosshead's Cave material brush)
+- Pink (For color keying)
+- Transparent (which doesn't work)
+- Black
+
+
+The original asset pack can be downloaded from Crosshead's patreon:
+https://www.patreon.com/Crosshead
